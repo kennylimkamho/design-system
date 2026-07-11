@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <!-- Reciprocity: hand gives first, then receives -->
+  <path d="M48 80 l24 -16 l16 0 l16 16 l0 16 l-16 16 l-16 0 l-24 -16" />
+  <path d="M56 96 l24 0" />
+  <path d="M192 80 l-24 -16 l-16 0 l-16 16 l0 16 l16 16 l16 0 l24 -16" />
+  <path d="M184 96 l-24 0" />
+  <!-- arrow indicating the second move -->
+  <path d="M120 50 l0 8" stroke-dasharray="3 3" />
+  <path d="M116 54 l4 4 l4 -4" />
+  <text x="120" y="40" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">give → get</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <!-- Contrast Effect: same dot, two surroundings -->
+  <text x="120" y="20" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">same dot — different anchor</text>
+
+  <circle cx="60"  cy="80" r="10" fill="currentColor" />
+  <circle cx="60"  cy="80" r="30" />
+  <circle cx="60"  cy="80" r="50" />
+
+  <circle cx="180" cy="80" r="10" fill="currentColor" />
+  <circle cx="180" cy="80" r="20" />
+
+  <text x="60"  y="148" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">big context</text>
+  <text x="180" y="148" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">isolated</text>
+</svg>

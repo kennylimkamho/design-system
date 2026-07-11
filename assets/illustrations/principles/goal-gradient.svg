@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <!-- Goal Gradient: progress bar with markers -->
+  <rect x="32" y="68" width="176" height="14" rx="7" stroke-width="1.5" />
+  <rect x="32" y="68" width="123" height="14" rx="7" fill="currentColor" fill-opacity="0.2" stroke="none" />
+  <!-- milestone ticks -->
+  <line x1="76"  y1="60" x2="76"  y2="90" stroke-width="1.5" />
+  <line x1="120" y1="56" x2="120" y2="94" stroke-width="1.5" />
+  <line x1="164" y1="60" x2="164" y2="90" stroke-width="1.5" />
+  <!-- current position dot -->
+  <circle cx="155" cy="75" r="6" fill="currentColor" />
+  <!-- labels -->
+  <text x="32"  y="50" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none">step 1</text>
+  <text x="120" y="50" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">step 2</text>
+  <text x="164" y="50" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">step 3</text>
+  <text x="208" y="78" font-family="ui-monospace, monospace" font-size="11" fill="currentColor" stroke="none">70%</text>
+</svg>

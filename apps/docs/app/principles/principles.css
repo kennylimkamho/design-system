@@ -1,0 +1,123 @@
+/* Principles section chrome — purple accent scoped here only. */
+
+.principle-hero {
+  border-left: 4px solid var(--color-accent-principles, #4F3B8B);
+  background: var(--color-accent-principlessoft, #EFEAFB);
+  padding: var(--space-8);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  margin: var(--space-6) 0 var(--space-10);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-8);
+  align-items: center;
+}
+
+.principle-hero-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-accent-principles, #4F3B8B);
+  margin: 0 0 var(--space-3);
+  font-weight: 600;
+}
+
+.principle-hero-title {
+  font-size: 2.25rem;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--space-3);
+  color: var(--color-text-primary, #1C1917);
+}
+
+.principle-hero-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary, #44403C);
+  margin: 0;
+  max-width: 36rem;
+}
+
+.principle-hero-illustration {
+  width: 240px;
+  height: 160px;
+  color: var(--color-accent-principles, #4F3B8B);
+  flex-shrink: 0;
+}
+
+.principle-hero-illustration svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Do / Don't card pair */
+.dodont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+  margin: var(--space-6) 0;
+}
+
+.dodont-card {
+  border: 1px solid var(--color-border-subtle, #E7E5E4);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  background: var(--color-bg-raised, #FFFFFF);
+}
+
+.dodont-card.do {
+  border-left: 3px solid var(--color-state-success, #13AE5C);
+}
+
+.dodont-card.dont {
+  border-left: 3px solid var(--color-state-critical, #F34822);
+}
+
+.dodont-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  margin: 0 0 var(--space-2);
+}
+
+.dodont-card.do .dodont-label {
+  color: var(--color-state-success, #13AE5C);
+}
+
+.dodont-card.dont .dodont-label {
+  color: var(--color-state-critical, #F34822);
+}
+
+.dodont-body {
+  font-size: 0.9375rem;
+  color: var(--color-text-primary, #1C1917);
+  margin: 0;
+  line-height: 1.55;
+}
+
+.dodont-code {
+  margin: var(--space-3) 0 0;
+  padding: var(--space-3);
+  background: var(--color-bg-sunken, #F5F5F4);
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary, #44403C);
+  overflow-x: auto;
+}
+
+@media (max-width: 720px) {
+  .principle-hero {
+    grid-template-columns: 1fr;
+  }
+  .principle-hero-illustration {
+    width: 100%;
+    max-width: 240px;
+  }
+  .dodont {
+    grid-template-columns: 1fr;
+  }
+}
