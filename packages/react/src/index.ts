@@ -1,2 +1,3 @@
-// Placeholder barrel. Real components land in M6.
-export {};
+export { Button, type ButtonProps } from './Button';
+export { Badge, type BadgeProps } from './Badge';
+export { Input, type InputProps } from './Input';
