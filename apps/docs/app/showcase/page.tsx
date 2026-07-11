@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { TopNav } from '../../components/TopNav';
 import { Footer } from '../../components/Footer';
 import { Sidebar } from '../../components/Sidebar';
@@ -12,15 +13,28 @@ export default function ShowcaseIndex() {
           <p className="doc-eyebrow">Showcase</p>
           <h1>In the wild</h1>
           <p>
-            Two fictional products — a CRM and a pricing configurator — built on
-            this system. They demonstrate that the same tokens and components
-            hold up on real-feeling surfaces.
+            Fictional products built on this system. They prove that the same
+            tokens and components hold up on real-feeling surfaces — and they
+            show how the principles express in UI.
           </p>
+
+          <h2>Available now</h2>
           <ul>
-            <li><a href="/showcase/crm">A CRM dashboard</a></li>
-            <li><a href="/showcase/pricing">A pricing configurator</a></li>
+            <li>
+              <Link href="/showcase/crm"><strong>A CRM dashboard</strong></Link>
+              {' — '}
+              Contact table, owner filters, deal-stage badges, KPI tiles.
+            </li>
           </ul>
-          <p><em>Coming in M8.</em></p>
+
+          <h2>Coming next</h2>
+          <ul>
+            <li>
+              <em>A pricing configurator</em>
+              {' — '}
+              Multi-step form, monthly/annual toggle, comparison table. (Deferred from M8; see plan.)
+            </li>
+          </ul>
         </article>
       </main>
       <Footer />
