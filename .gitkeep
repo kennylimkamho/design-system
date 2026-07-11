@@ -1,0 +1,9 @@
+# _archive/
+#
+# Source material kept locally for reference only — not tracked in git.
+# See _archive/README.md for contents.
+#
+# Two prior design system archives (BobWork/BobChat, ChatDaddy) and the
+# standalone design-psychology-app HTML are stored here so we can mine
+# them for tokens, components, specimens, and illustration references
+# during Phase 1 build-out without polluting the new repo.
