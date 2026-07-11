@@ -1,0 +1,35 @@
+{
+  "color": {
+    "bg": {
+      "canvas":      { "$value": "{color.neutral.50}",  "$type": "color" },
+      "surface":     { "$value": "{color.neutral.25}",  "$type": "color" },
+      "raised":      { "$value": "#FFFFFF",             "$type": "color" },
+      "sunken":      { "$value": "{color.neutral.100}", "$type": "color" },
+      "inverse":     { "$value": "{color.neutral.900}", "$type": "color" }
+    },
+    "text": {
+      "primary":     { "$value": "{color.neutral.900}", "$type": "color" },
+      "secondary":   { "$value": "{color.neutral.700}", "$type": "color" },
+      "tertiary":    { "$value": "{color.neutral.500}", "$type": "color" },
+      "onAccent":    { "$value": "{color.neutral.25}",  "$type": "color" },
+      "onInverse":   { "$value": "{color.neutral.50}",  "$type": "color" },
+      "link":        { "$value": "{color.info.700}",    "$type": "color" }
+    },
+    "border": {
+      "subtle":      { "$value": "{color.neutral.200}", "$type": "color" },
+      "default":     { "$value": "{color.neutral.300}", "$type": "color" },
+      "strong":      { "$value": "{color.neutral.700}", "$type": "color" },
+      "focus":       { "$value": "{color.info.600}",    "$type": "color" }
+    },
+    "state": {
+      "success":     { "$value": "{color.success.600}", "$type": "color" },
+      "successBg":   { "$value": "{color.success.50}",  "$type": "color" },
+      "warning":     { "$value": "{color.warning.600}", "$type": "color" },
+      "warningBg":   { "$value": "{color.warning.50}",  "$type": "color" },
+      "critical":    { "$value": "{color.critical.600}","$type": "color" },
+      "criticalBg":  { "$value": "{color.critical.50}", "$type": "color" },
+      "info":        { "$value": "{color.info.600}",    "$type": "color" },
+      "infoBg":      { "$value": "{color.info.50}",     "$type": "color" }
+    }
+  }
+}

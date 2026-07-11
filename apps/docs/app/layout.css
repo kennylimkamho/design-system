@@ -1,0 +1,265 @@
+/* Layout primitives — separated from globals.css to keep file sizes bounded. */
+
+.container {
+  max-width: var(--size-container);
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+/* Top nav --------------------------------------------------------------- */
+.topnav {
+  border-bottom: 1px solid var(--color-border-subtle, #E7E5E4);
+  background: var(--color-bg-surface, #FDFDFD);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.topnav-inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: var(--space-3) 0;
+}
+
+.topnav-brand {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--color-text-primary, #1C1917);
+}
+
+.topnav-links {
+  display: flex;
+  gap: var(--space-5);
+  align-items: center;
+}
+
+.topnav-group {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.topnav-link {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary, #44403C);
+  padding: var(--space-1) 0;
+}
+
+.topnav-link:hover {
+  color: var(--color-text-primary, #1C1917);
+  text-decoration: none;
+}
+
+.topnav-divider {
+  width: 1px;
+  height: 16px;
+  background: var(--color-border-subtle, #E7E5E4);
+}
+
+.topnav-spacer {
+  flex: 1;
+}
+
+.topnav-meta {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.theme-toggle {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--color-border-default, #D6D3D1);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-text-secondary, #44403C);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: var(--color-bg-sunken, #F5F5F4);
+}
+
+/* Hero ------------------------------------------------------------------ */
+.hero {
+  padding: var(--space-20) 0;
+  text-align: center;
+}
+
+.hero-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-tertiary, #78716C);
+  margin: 0 0 var(--space-4);
+}
+
+.hero-title {
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 0 0 var(--space-4);
+  letter-spacing: -0.02em;
+}
+
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: var(--color-text-secondary, #44403C);
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+/* Axis tile grid -------------------------------------------------------- */
+.axis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-4);
+  padding: var(--space-8) 0 var(--space-20);
+}
+
+.axis-tile {
+  display: block;
+  padding: var(--space-5);
+  border: 1px solid var(--color-border-subtle, #E7E5E4);
+  border-radius: var(--radius-lg);
+  background: var(--color-bg-raised, #FFFFFF);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.axis-tile:hover {
+  border-color: var(--color-border-default, #D6D3D1);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.axis-tile-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-tertiary, #78716C);
+  margin: 0 0 var(--space-2);
+}
+
+.axis-tile-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0 0 var(--space-2);
+  color: var(--color-text-primary, #1C1917);
+}
+
+.axis-tile-desc {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary, #44403C);
+  margin: 0;
+}
+
+/* Footer ---------------------------------------------------------------- */
+.footer {
+  border-top: 1px solid var(--color-border-subtle, #E7E5E4);
+  padding: var(--space-8) 0;
+  margin-top: var(--space-20);
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.footer-meta {
+  font-size: 0.875rem;
+  color: var(--color-text-tertiary, #78716C);
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--space-5);
+  font-size: 0.875rem;
+}
+
+/* Doc page shell -------------------------------------------------------- */
+.doc {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: var(--space-10);
+  padding: var(--space-10) 0 var(--space-20);
+}
+
+.doc-sidebar {
+  font-size: 0.875rem;
+}
+
+.doc-sidebar-group {
+  margin-bottom: var(--space-6);
+}
+
+.doc-sidebar-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-tertiary, #78716C);
+  margin: 0 0 var(--space-2);
+}
+
+.doc-sidebar-link {
+  display: block;
+  padding: var(--space-1) 0;
+  color: var(--color-text-secondary, #44403C);
+}
+
+.doc-sidebar-link:hover {
+  color: var(--color-text-primary, #1C1917);
+  text-decoration: none;
+}
+
+.doc-content {
+  max-width: 760px;
+}
+
+.doc-content h1 {
+  font-size: 2.5rem;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--space-4);
+}
+
+.doc-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: var(--space-10) 0 var(--space-3);
+}
+
+.doc-content h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: var(--space-6) 0 var(--space-2);
+}
+
+.doc-content p {
+  margin: 0 0 var(--space-4);
+}
+
+.doc-content ul,
+.doc-content ol {
+  margin: 0 0 var(--space-4);
+  padding-left: var(--space-6);
+}
+
+.doc-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-tertiary, #78716C);
+  margin: 0 0 var(--space-3);
+}

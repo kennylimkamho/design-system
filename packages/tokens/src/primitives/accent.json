@@ -1,0 +1,16 @@
+{
+  "color": {
+    "accent": {
+      "principles": {
+        "$value": "#4F3B8B",
+        "$type": "color",
+        "$description": "Reserved for the principles section only. Never use elsewhere."
+      },
+      "principlesSoft": {
+        "$value": "#EFEAFB",
+        "$type": "color",
+        "$description": "Tinted background for hero cards in the principles section."
+      }
+    }
+  }
+}
