@@ -6,7 +6,7 @@ export function Footer() {
           <div className="footer-meta">
             MIT licensed · v0.2.0 ·{' '}
             <a
-              href="https://app.notion.com/p/73b05963f5f54e84b6bc5b11c6087e66"
+              href="https://github.com/kennylimkamho/design-system/commits/main/"
               rel="noopener noreferrer"
               target="_blank"
             >
