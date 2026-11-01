@@ -6,6 +6,7 @@ const withMDX = createMDX({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  ...(process.env.PAGES_DEPLOY === 'true' ? { output: 'export', basePath: '/design-system', trailingSlash: true } : {}),
   pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
   experimental: {
     mdxRs: false,

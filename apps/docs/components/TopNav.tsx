@@ -10,7 +10,7 @@ const LEFT_AXIS = [
   { href: '/content', label: 'Content' },
 ];
 
-const RIGHT_AXIS = [{ href: '/showcase', label: 'Showcase' }];
+const RIGHT_AXIS = [{ href: '/work', label: 'Selected work' }, { href: '/showcase', label: 'Showcase' }];
 
 export function TopNav() {
   return (
