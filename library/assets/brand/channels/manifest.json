@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-09-25",
+  "scope": "Documentation specimens, not a runtime rollout or blanket trademark permission.",
+  "assets": [
+    {
+      "key": "whatsapp-white",
+      "file": "Digital_Glyph_White_RGB_2026.svg",
+      "mime": "image/svg+xml",
+      "sha256": "7fb054c0f4bea644b4a4a014d6d8581aad7e6dcb639049d17a578dc44f8e6fd4",
+      "status": "official-pack",
+      "source": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+      "member": "Brand Resource Center Page Downloads/01_Glyph/01_Digital RGB/03_SVG/Digital_Glyph_White_RGB_2026.svg",
+      "transform": "None. Official white variant; not CSS recoloring."
+    },
+    {
+      "key": "messenger-white",
+      "file": "Messenger_Icon_Secondary_White.svg",
+      "mime": "image/svg+xml",
+      "sha256": "65695145e585b6d8916788207691e4c903955e7f95e1e3e80674bcbe789cda87",
+      "status": "official-pack",
+      "source": "https://www.meta.com/brand/resources/facebook/messenger-icon/",
+      "member": "Messenger Icon/Secondary Icons/Secondary_White/Messenger_Icon_Secondary_White.svg",
+      "transform": "None. Secondary white version for visibility constraints; primary blue remains the light-surface default."
+    },
+    {
+      "key": "instagram-white",
+      "file": "Instagram_Glyph_White.svg",
+      "mime": "image/svg+xml",
+      "sha256": "3347813e9e8f082cdf48495818bd370ccff94b687efb8aa1c8a7b36cfcfb8291",
+      "status": "official-pack",
+      "source": "https://www.meta.com/brand/resources/instagram/instagram-brand/",
+      "member": "01 Static Glyph/02 White Glyph/Instagram_Glyph_White.svg",
+      "transform": "None. Official white glyph; not CSS desaturation or inversion."
+    },
+    {
+      "key": "whatsapp-api-mode",
+      "file": "whatsapp-cloud-api-mode-reference.svg",
+      "mime": "image/svg+xml",
+      "sha256": "8f742fcdf58416b7e2ec65439a9032c355ba691f90802a8f5ae61a7370e774e1",
+      "status": "user-derived-reference",
+      "source": "User browser annotation on Cloud API card, 2026-09-25",
+      "transform": "Authored scalable interpretation of the supplied green rounded-square speech-bubble/cog reference; not the original image bytes.",
+      "limitation": "Custom mode illustration requested for this design-system draft. Not claimed to be an official Meta or WhatsApp logo; brand/usage review required before production."
+    },
+    {
+      "key": "whatsapp-variants-reference",
+      "file": "whatsapp-variants-user-reference.png",
+      "mime": "image/png",
+      "sha256": "fe992ae2c8eed83b55d8df36f8171982dbf80df98cf91f8064d35b6be775d30f",
+      "status": "user-supplied-reference",
+      "source": "User attachment codex-clipboard-f4c81b60-f0bd-4049-99ab-1e644a1e572b.png, 2026-09-25",
+      "transform": "None",
+      "limitation": "Comparison graphic supplied for explanation, not an official classification or proof of approved artwork. Its overall API heading must not label the mobile app variants."
+    },
+    {
+      "key": "whatsapp",
+      "file": "Digital_Glyph_Green_RGB_2026.svg",
+      "mime": "image/svg+xml",
+      "sha256": "f7b1311db718533e671645f57cd94b92f0e006e61d7e6581a80675fc5a478fc4",
+      "status": "official-pack",
+      "source": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+      "member": "Brand Resource Center Page Downloads/01_Glyph/01_Digital RGB/03_SVG/Digital_Glyph_Green_RGB_2026.svg",
+      "transform": "None"
+    },
+    {
+      "key": "messenger",
+      "file": "Messenger_Icon_Primary_Blue.svg",
+      "mime": "image/svg+xml",
+      "sha256": "0278c863f568da118d80547ceee6ad0b75381111e72d7c69cdd8859467c7889b",
+      "status": "official-pack",
+      "source": "https://www.meta.com/brand/resources/facebook/messenger-icon/",
+      "member": "Messenger Icon/Primary Icon/Messenger_Icon_Primary_Blue.svg",
+      "transform": "None"
+    },
+    {
+      "key": "instagram",
+      "file": "instagram-glyph-128.png",
+      "mime": "image/png",
+      "sha256": "19e83f89f6906fcbcd59752fb00adc4f3d6dbe7ade5bbb0885808a45764de592",
+      "status": "official-pack-resized",
+      "source": "https://www.meta.com/brand/resources/instagram/instagram-brand/",
+      "member": "01 Static Glyph/01 Gradient Glyph/Instagram_Glyph_Gradient.png",
+      "transform": "Proportional resize to maximum 128px using sips. No crop, recolor or added artwork."
+    },
+    {
+      "key": "whatsapp-business",
+      "file": "whatsapp-business-app-reference.png",
+      "mime": "image/png",
+      "sha256": "9224a6b2241d65315e297c35ffa80cf17cb4c80ca5aeb19cd991d5c557d2652e",
+      "status": "reference-only",
+      "source": "frontend-dashboard/src/Images/account-images/waba.png",
+      "guidelines": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+      "transform": "None. Legacy filename is not evidence this represents Cloud API.",
+      "limitation": "Existing B app-mark reference. Original vendor pack/version unverified; replace from approved Business app asset before production."
+    },
+    {
+      "key": "tiktok",
+      "file": "tiktok-reference.png",
+      "mime": "image/png",
+      "sha256": "21d517f6c12258d7cadef8f55d9455fac73aa77903c2b9bfbed24f82354d02bf",
+      "status": "reference-only",
+      "source": "frontend-dashboard/src/Images/account-images/tiktok.png",
+      "guidelines": "https://www.tiktokbrandhub.com/visual-identity/logo",
+      "transform": "None",
+      "limitation": "Existing App reference only. Current official logo pack provenance not verified; production use pending asset review."
+    }
+  ]
+}

@@ -18,6 +18,7 @@ export function GET(): Response {
     ...foundationSlugs.map((s) => `/foundations/${s}`),
     ...patternSlugs.map((s) => `/patterns/${s}`),
     '/showcase/crm',
+    '/handbook/index.html',
   ];
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>

@@ -2,6 +2,8 @@ name: Publish product demo
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -21,14 +23,21 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - run: pnpm library:install
+      - run: pnpm handbook:build && pnpm handbook:test
+      - run: npm run build --prefix library && npm run test:runtime --prefix library
+      - run: pnpm library:lab
       - run: pnpm build
         env:
           PAGES_DEPLOY: 'true'
       - uses: actions/configure-pages@v5
+        if: github.ref == 'refs/heads/main'
       - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
         with:
           path: apps/docs/out
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:

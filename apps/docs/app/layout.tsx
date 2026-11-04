@@ -5,9 +5,9 @@ import './principles/principles.css';
 import '@design-system/tokens/dist/tokens.css';
 
 export const metadata: Metadata = {
-  title: 'Kenny — Product Design Systems',
+  title: 'Product Design System — Kenny Lim',
   description:
-    'ChatDaddy and BobWork design case studies, reusable foundations, components and the product decisions behind them.',
+    'A practical handbook of foundations, components, user journeys, case studies and motion. Designed for people and AI agents.',
 };
 
 export default function RootLayout({

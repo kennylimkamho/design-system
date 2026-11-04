@@ -1,0 +1,64 @@
+.visual-identity-panel { display: grid; align-content: start; justify-items: start; gap: 8px; min-width: 0; padding: 14px; border: 1px solid #dce5f0; border-radius: 10px; background: #fff; }
+.visual-identity-panel > b { font-size: 12px; }
+.visual-identity-panel > small { color: #63738a; font-size: 11px; }
+.visual-identity-item { display: flex; align-items: center; gap: 9px; min-width: 0; padding: 9px 10px; border: 1px solid #e0e7f0; border-radius: 9px; background: #fff; }
+.visual-identity-item img { display: block; flex: 0 0 32px; width: 32px; height: 32px; object-fit: contain; }
+.visual-identity-item span { display: grid; gap: 3px; min-width: 0; }
+.visual-identity-item b { font-size: 12px; overflow-wrap: anywhere; }
+.visual-identity-item small { color: #66758a; font-size: 11px; }
+.visual-identity-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; padding: 8px 0; border-bottom: 1px solid #e3eaf3; font-size: 11px; }
+.visual-identity-row span { color: #62728a; }
+.visual-identity-row b { color: #17243b; }
+.visual-own-mark svg { display: block; width: 36px; height: 36px; }
+.visual-role-icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 9px; background: #e8efff; color: #0b4bc2; }
+.visual-role-icon svg { display: block; width: 24px; height: 24px; }
+.visual-role-icon.utility { background: #f2f5f9; color: #4e5d73; }
+.visual-role-icon.utility svg { width: 20px; height: 20px; }
+.visual-integration-compact { display: grid; gap: 13px; max-width: 350px; padding: 16px; border: 1px solid #d8e3ef; border-radius: 12px; background: #fff; }
+.visual-integration-compact > p { margin: 0; color: #56677d; font-size: 12px; }
+.visual-integration-compact > .visual-row small { color: #66758a; font-size: 11px; }
+.visual-identity-dark { display: flex; align-items: center; padding: 14px; border-radius: 10px; background: #182940; }
+.visual-identity-dark .visual-identity-item { border: 0; background: transparent; color: #fff; }
+.visual-identity-dark .visual-identity-item small { color: #c4d0e0; }
+.visual-logo-tile { display: inline-flex; padding: 7px; border-radius: 10px; background: #f0f4fa; }
+.visual-icon-slot { display: grid; place-items: center; width: 56px; height: 56px; border: 1px solid #d7e2ee; border-radius: 12px; background: #f8faff; }
+.visual-icon-slot img { width: 40px; height: 40px; object-fit: contain; }
+.visual-icon-slot img.too-small { width: 18px; height: 18px; }
+.visual-missing-icon { display: grid !important; place-items: center; flex: 0 0 32px; width: 32px; height: 32px; border: 1px dashed #8394ad; border-radius: 7px; color: #556882; font-weight: 700; }
+.visual-integration-icon { display: grid !important; place-items: center; flex: 0 0 36px; width: 36px; height: 36px; border-radius: 9px; background: #eef3fb; color: #45617f; }
+.visual-integration-icon svg { display: block; width: 23px; height: 23px; }
+.visual-integration-settings { flex: 0 1 170px; margin-left: auto; font-size: 11px; }
+.visual-integration-settings summary { display: list-item; width: fit-content; min-height: 44px; margin-left: auto; padding: 12px 5px; color: #0b4bbb; font-weight: 650; cursor: pointer; opacity: 0; }
+.visual-integration-compact.is-connected:hover .visual-integration-settings summary,
+.visual-integration-compact.is-connected:focus-within .visual-integration-settings summary,
+.visual-integration-settings[open] summary { opacity: 1; }
+.visual-integration-settings summary:focus-visible { outline: 2px solid #0f5bff; outline-offset: 2px; border-radius: 5px; }
+.visual-integration-settings > div { width: 100%; margin-top: 4px; padding: 10px; border: 1px solid #cbd9eb; border-radius: 8px; background: #fff; color: #415873; line-height: 1.5; }
+.visual-identity-layer { display: grid; align-content: start; justify-items: start; gap: 7px; min-width: 0; min-height: 135px; padding: 12px; border: 1px solid #dce5f0; border-radius: 9px; background: #fff; }
+.visual-identity-layer > img { display: block; object-fit: contain; }
+.visual-identity-layer b { font-size: 12px; }
+.visual-identity-layer small { color: #62748c; font-size: 10px; line-height: 1.45; }
+.visual-identity-layer .visual-logo-tile { padding: 7px; }
+.visual-identity-layer.visual-identity-complex { color: #fff; background: linear-gradient(135deg, #16416e 0 38%, #22537d 38% 62%, #132b48 62%); }
+.visual-identity-layer.visual-identity-complex .visual-label, .visual-identity-layer.visual-identity-complex small { color: #e0eaf6; }
+.visual-identity-surface-matrix, .visual-identity-state-matrix { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.visual-identity-surface-matrix > div, .visual-identity-state-matrix > div { display: grid; align-content: start; justify-items: start; gap: 7px; min-width: 0; min-height: 112px; padding: 10px; border: 1px solid #dce5f0; border-radius: 8px; }
+.visual-identity-surface-matrix img, .visual-identity-state-matrix img { display: block; object-fit: contain; }
+.visual-identity-surface-matrix b, .visual-identity-state-matrix b { font-size: 11px; overflow-wrap: anywhere; }
+.visual-identity-surface-matrix .white { background: #fff; }
+.visual-identity-surface-matrix .light { background: #f0f5fb; }
+.visual-identity-surface-matrix .dark { background: #15243b; color: #fff; }
+.visual-identity-surface-matrix .brand { background: #0f5bff; color: #fff; }
+.visual-identity-surface-matrix .complex { background: linear-gradient(135deg, #144070 0 42%, #27618f 42% 65%, #132942 65%); color: #fff; }
+.visual-identity-surface-matrix .dark .visual-label, .visual-identity-surface-matrix .brand .visual-label, .visual-identity-surface-matrix .complex .visual-label { color: #e4edfa; }
+.visual-identity-state-matrix { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 10px; }
+.visual-identity-state-matrix > div { min-height: 96px; background: #fff; }
+.visual-identity-state-matrix .hover { background: #eef4ff; }
+.visual-identity-state-matrix .focused { outline: 2px solid #0f5bff; outline-offset: 2px; }
+.visual-identity-state-matrix .selected { border-color: #0f5bff; background: #e7efff; }
+@media (hover: none), (pointer: coarse) { .visual-integration-settings summary { opacity: 1; } }
+@media (max-width: 650px) {
+  .visual-identity-surface-matrix { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .visual-identity-state-matrix { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 390px) { .visual-identity-surface-matrix { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

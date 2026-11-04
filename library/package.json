@@ -1,0 +1,23 @@
+{
+  "name": "@chatdaddy/design-system",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "tsc -b packages/tokens packages/icons packages/stores packages/theme packages/components",
+    "lint": "tsc --noEmit --project tsconfig.base.json",
+    "storybook": "npm run storybook --workspace=@chatdaddy/storybook",
+    "build-storybook": "npm run build-storybook --workspace=@chatdaddy/storybook",
+    "test:runtime": "node --test scripts/runtime-counts.test.mjs scripts/module-icon-parity.test.mjs",
+    "build:handbook": "node scripts/build-handbook.mjs",
+    "test:handbook": "node scripts/build-handbook.mjs && node scripts/validate-handbook-dom.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "jsdom": "26.1.0",
+    "typescript": "5.8.2"
+  }
+}

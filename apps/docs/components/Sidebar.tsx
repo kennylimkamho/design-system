@@ -39,6 +39,7 @@ const SECTIONS: Array<{
 export function Sidebar() {
   return (
     <aside className="doc-sidebar" aria-label="Section navigation">
+      <div className="doc-sidebar-group"><a className="doc-sidebar-label" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/handbook/index.html`}>Complete handbook ↗</a></div>
       {SECTIONS.map((s) => (
         <div key={s.href} className="doc-sidebar-group">
           <Link href={s.href} className="doc-sidebar-label" style={{ display: 'block' }}>

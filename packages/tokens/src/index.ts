@@ -1,6 +1,6 @@
 // Re-export the resolved token JSON so consumers (apps/docs RSC, future MCP server)
 // can import the same data the CSS variables were generated from.
-import tokens from '../dist/tokens.json' with { type: 'json' };
+import resolvedTokens from '../dist/tokens.json' with { type: 'json' };
 
 export type ColorRole = 'bg' | 'text' | 'border' | 'state';
 export type ColorGroup =
@@ -11,7 +11,7 @@ export type ColorGroup =
   | 'info'
   | 'accent';
 
-export const tokens = tokens as Tokens;
+export const tokens = resolvedTokens as Tokens;
 
 export interface Tokens {
   color: {

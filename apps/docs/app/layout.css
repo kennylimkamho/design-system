@@ -18,7 +18,8 @@
 .topnav-inner {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
+  gap: var(--space-5);
+  flex-wrap: wrap;
   padding: var(--space-3) 0;
 }
 
@@ -35,11 +36,14 @@
   display: flex;
   gap: var(--space-5);
   align-items: center;
+  flex-wrap: wrap;
+  min-width: 0;
 }
 
 .topnav-group {
   display: flex;
   gap: var(--space-4);
+  flex-wrap: wrap;
 }
 
 .topnav-link {
@@ -115,6 +119,10 @@
 }
 
 /* Axis tile grid -------------------------------------------------------- */
+.hero-actions { margin: var(--space-6) 0 0; }
+.hero-actions a { display: inline-block; padding: 12px 20px; background: var(--color-text-primary, #1C1917); color: var(--color-bg-surface, #fff); border-radius: 8px; }
+.hero-actions a:focus-visible, .topnav a:focus-visible { outline: 3px solid #0F5BFF; outline-offset: 4px; }
+@media (max-width: 760px) { .topnav-links { order: 3; width: 100%; } .topnav-meta { margin-left: auto; } }
 .axis-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

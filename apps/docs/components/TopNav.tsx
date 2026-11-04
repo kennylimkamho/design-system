@@ -10,7 +10,7 @@ const LEFT_AXIS = [
   { href: '/content', label: 'Content' },
 ];
 
-const RIGHT_AXIS = [{ href: '/work', label: 'Selected work' }, { href: '/showcase', label: 'Showcase' }];
+const RIGHT_AXIS = [{ href: '/work', label: 'Examples' }, { href: '/showcase', label: 'Showcase' }];
 
 export function TopNav() {
   return (
@@ -18,10 +18,11 @@ export function TopNav() {
       <div className="container">
         <div className="topnav-inner">
           <Link href="/" className="topnav-brand">
-            Design System
+            Product System
           </Link>
           <nav className="topnav-links" aria-label="Primary">
             <div className="topnav-group">
+              <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/handbook/index.html`} className="topnav-link">Handbook</a>
               {LEFT_AXIS.map((l) => (
                 <Link key={l.href} href={l.href} className="topnav-link">
                   {l.label}

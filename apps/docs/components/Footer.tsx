@@ -4,9 +4,9 @@ export function Footer() {
       <div className="container">
         <div className="footer-inner">
           <div className="footer-meta">
-            MIT licensed · v0.2.0 ·{' '}
+            Handbook 1.4.0-draft.9 · Updated 4 Nov 2026 ·{' '}
             <a
-              href="https://github.com/kennylimkamho/design-system/commits/main/"
+              href="https://github.com/kennylimkamho/design-system/blob/main/CHANGELOG.md"
               rel="noopener noreferrer"
               target="_blank"
             >

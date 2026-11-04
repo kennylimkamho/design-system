@@ -1,0 +1,18 @@
+{
+  "specVersion": "0.2.0-draft.2",
+  "status": "draft",
+  "acceptedConstraints": [
+    {"id":"C-01","status":"accepted-request","rule":"Use an independent ChatDaddy GitHub repository"},
+    {"id":"C-02","status":"accepted-request","rule":"Build ChatDaddy interaction rules and preserve ChatDaddy brand colors"},
+    {"id":"C-03","status":"accepted-request","rule":"Primary navigation, contextual secondary navigation, then genuine tabs when needed"},
+    {"id":"C-04","status":"accepted-request","rule":"Propose a coherent new icon system and version future changes"},
+    {"id":"C-05","status":"accepted-request","rule":"Rich interaction-triggered micro animations with reduced-motion support"},
+    {"id":"C-06","status":"accepted-request","rule":"Only ChatDaddy branding in design-system copy; external design reference names are not displayed"}
+  ],
+  "decisions": [
+    {"id":"D-01","key":"icons","title":"Icon 方向","status":"user-selected","selectionEvidence":"User pasted review choices in conversation; PR review pending","recommendation":"hybrid","selected":"hybrid","options":[{"value":"hybrid","label":"ChatDaddy 模組 icons + Lucide utilities"},{"value":"lucide","label":"全套 Lucide 線條 icons"}]},
+    {"id":"D-02","key":"action","title":"主要操作顏色","status":"user-selected","selectionEvidence":"User pasted review choices in conversation; PR review pending","recommendation":"blue","selected":"blue","options":[{"value":"blue","label":"藍色 primary，綠色正面狀態／accent"},{"value":"green","label":"綠色 primary（深色文字），藍色導航"}]},
+    {"id":"D-03","key":"density","title":"預設列表密度","status":"user-selected","selectionEvidence":"User pasted review choices in conversation; PR review pending","recommendation":"standard","selected":"standard","options":[{"value":"standard","label":"Standard 52px；專業工作區另設 compact"},{"value":"compact","label":"Compact 40px；觸控目標仍保留 44px"}]}
+  ],
+  "followUps": ["Assign product/design and frontend reviewers on the PR", "Confirm component-package ownership and relationship with @chatdaddy/ui-library", "Confirm Blauer Nue web redistribution rights before any font migration", "Revalidate findings on the implementation branch"]
+}

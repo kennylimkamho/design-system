@@ -1,0 +1,34 @@
+.tech-icon-tile { display: grid; place-items: center; flex: none; width: 48px; height: 48px; border-radius: 11px; background: #0f5bff; color: #fff; }
+.tech-icon-tile svg { display: block; fill: currentColor; width: 34px; height: 36px; }
+.tech-icon-tile.channel { border: 1px solid #d9e4f0; border-radius: 50%; background: #fff; }
+.tech-icon-tile.module { background: transparent; color: #0c4cc4; }
+.tech-icon-tile.utility { background: transparent; color: #54667c; }
+.tech-icon-tile.module svg, .tech-icon-tile.utility svg { fill: none; }
+.tech-icon-sizes { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-around; gap: 12px; }
+.tech-icon-sizes > div { display: grid; justify-items: center; gap: 8px; }
+.tech-icon-sizes small { color: #61728a; font-size: 11px; text-align: center; }
+.tech-icon-tile.size-40 { width: 40px; height: 40px; }
+.tech-icon-tile.size-40 svg { width: 24px; height: 24px; }
+.tech-icon-tile.size-24 { width: 24px; height: 24px; }
+.tech-icon-tile.size-24 svg { width: 24px; height: 24px; }
+.tech-icon-tile.size-20 { width: 20px; height: 20px; }
+.tech-icon-tile.size-20 svg { width: 20px; height: 20px; }
+.tech-icon-action { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid #d8e2f0; border-radius: 9px; font-size: 24px; }
+.tech-icon-action svg { display: block; width: 20px; height: 20px; }
+.tech-icon-action.focused { border-color: #0f5bff; outline: 2px solid #0f5bff; outline-offset: 2px; background: #e8f0ff; }
+.tech-icon-action.disabled { opacity: .42; }
+.tech-motion-chip { display: inline-flex; align-items: center; min-height: 38px; padding: 8px 11px; border: 1px solid #cad9ef; border-radius: 8px; background: #e8f0ff; color: #0b48ba; font-size: 12px; font-weight: 650; transition: transform 160ms ease, box-shadow 160ms ease; }
+.tech-motion-chip.lift:hover { transform: translateY(-2px); box-shadow: 0 6px 15px #0f5bff22; }
+.tech-focus-route { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.tech-focus-route > span { color: #64758b; font-size: 11px; }
+.tech-focus-route .btn:focus-visible { outline: 2px solid #0f5bff; outline-offset: 3px; }
+.tech-keyboard-flow { display: flex; flex-wrap: wrap; gap: 10px; }
+.tech-keyboard-flow > div { display: grid; justify-items: center; gap: 7px; min-width: 72px; padding: 10px; border: 1px solid #d8e2f0; border-radius: 8px; background: #fff; }
+.tech-keyboard-flow kbd { min-width: 31px; padding: 3px 6px; border: 1px solid #bdcce1; border-bottom-width: 3px; border-radius: 5px; text-align: center; font-size: 12px; }
+.tech-keyboard-flow span { color: #5f7189; font-size: 11px; }
+.tech-pipeline { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
+.tech-pipeline > span { padding: 9px 11px; border: 1px solid #cfdcf0; border-radius: 8px; background: #fff; color: #213e6b; font-size: 12px; font-weight: 650; }
+.tech-pipeline > span:first-child { background: #e9f1ff; }
+.tech-pipeline > span:last-child { border-color: #bcdfca; background: #eaf8ef; color: #176543; }
+.tech-pipeline > i { color: #7c91ad; font-style: normal; }
+@media (prefers-reduced-motion: reduce) { .tech-motion-chip { transition: none; } .tech-motion-chip.lift:hover { transform: none; } }

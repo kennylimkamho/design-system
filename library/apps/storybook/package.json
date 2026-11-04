@@ -1,0 +1,42 @@
+{
+  "name": "@chatdaddy/storybook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@chatdaddy/components": "*",
+    "@chatdaddy/icons": "*",
+    "@chatdaddy/stores": "*",
+    "@chatdaddy/theme": "*",
+    "@chatdaddy/tokens": "*",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^5.17.1",
+    "@mui/x-data-grid": "^7.28.3",
+    "@tanstack/react-query": "^5.69.0",
+    "@tanstack/react-virtual": "^3.13.5",
+    "lucide-react": "^0.511.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-interactions": "^8.6.12",
+    "@storybook/addon-links": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.4.1",
+    "storybook": "^8.6.12",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}
