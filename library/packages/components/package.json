@@ -1,0 +1,42 @@
+{
+  "name": "@chatdaddy/components",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "@mui/material": "^5.17.1",
+    "@mui/icons-material": "^5.17.1",
+    "@mui/x-data-grid": "^7.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@tanstack/react-virtual": "^3.13.5",
+    "lucide-react": "^0.511.0"
+  },
+  "dependencies": {
+    "@chatdaddy/icons": "*",
+    "@chatdaddy/tokens": "*"
+  },
+  "devDependencies": {
+    "typescript": "5.8.2",
+    "@types/react": "^18.3.1",
+    "@mui/material": "5.17.1",
+    "@mui/icons-material": "5.17.1",
+    "@mui/x-data-grid": "^7.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@tanstack/react-virtual": "3.13.5",
+    "lucide-react": "0.511.0"
+  }
+}

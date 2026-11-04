@@ -1,0 +1,18 @@
+{
+  "status":"user-selected-D-01-and-MI-01-to-MI-03-pending-review",
+  "utilitySource":{"package":"lucide-react","version":"0.542.0","license":"ISC + Feather MIT portions","notice":"THIRD_PARTY_NOTICES.md"},
+  "modules": {
+    "inbox":{"label":"收件箱","lucide":"inbox"}, "contacts":{"label":"聯絡人","lucide":"users-round"},
+    "crm":{"label":"CRM","lucide":"user-round-check"},
+    "automation":{"label":"自動化","lucide":"workflow"}, "broadcasts":{"label":"廣播","lucide":"megaphone"},
+    "channels":{"label":"渠道","lucide":"radio"}, "integration":{"label":"整合","lucide":"workflow"}, "analytics":{"label":"分析","lucide":"chart-no-axes-combined"},
+    "ai":{"label":"AI 助理","lucide":"sparkles"}, "shop":{"label":"商店","lucide":"shopping-bag"},
+    "calls":{"label":"通話","lucide":"phone"}, "settings":{"label":"設定","lucide":"settings"}
+  },
+  "actions": {
+    "import":"upload", "export":"download", "assign":"user-round-check", "tag":"tag", "filter":"list-filter",
+    "search":"search", "more":"ellipsis", "settings":"settings", "external":"external-link", "delete":"trash-2",
+    "add":"plus", "close":"x", "check":"check", "back":"arrow-left", "next":"arrow-right", "copy":"copy",
+    "collapse":"panel-left-close", "expand":"panel-left-open", "menu":"menu", "chevron":"chevron-down", "grid":"layout-grid", "list":"list", "clock":"clock"
+  }
+}

@@ -41,3 +41,9 @@ Thumbs.db
 _archive/source-material/
 # But keep the README inside _archive explaining what these are
 !_archive/
+
+# Reproducible handbook and component-lab deployment assets
+/apps/docs/public/handbook/
+/apps/docs/public/lab/
+/library/apps/storybook/storybook-static/
+/library/handbook/annotation-preview/

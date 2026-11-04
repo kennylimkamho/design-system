@@ -1,50 +1,63 @@
-# Kenny’s Product Design Systems
+# Product Design System
 
-**How product judgment becomes consistent software.**
+**Product judgment, made reusable.** By Kenny Lim.
 
-A public design portfolio and working documentation site covering foundations, tokens, components, patterns and content guidelines. Explore selected **ChatDaddy and BobWork** design decisions alongside the reusable system.
+A brand-independent working system for designers, engineers and AI agents: foundations, components, complete user journeys, case studies and purposeful motion.
 
-[Open the design portfolio](https://kennylimkamho.github.io/design-system/work/) · [Read the product case studies](content/case-studies/README.md) · [Explore Kenny’s work](https://github.com/kennylimkamho)
+[Open the website](https://kennylimkamho.github.io/design-system/) · [Read the complete handbook](https://kennylimkamho.github.io/design-system/handbook/) · [Try the component lab](https://kennylimkamho.github.io/design-system/lab/)
 
-The brand case studies explain the problem, the design response and the implementation boundary. Their fictional interactive specimens illustrate the rules without publishing internal customer data. The existing generic component system remains the foundation; the brand examples do not imply a complete production migration.
+**Handbook:** `1.4.0-draft.9` · **Updated:** 2026-11-04 14:22:33 HKT (UTC+08:00).
 
-> **Phase 1 (current):** the documentation site itself — documentation and interactive specimens, published on GitHub Pages.
-> **Phase 2 (planned):** CLI + MCP tooling around the same system.
+## What is here
 
-## Stack
+- **75 handbook chapters:** foundations, principles, key modules, flow design, a case-study library, Motion Lab, AI guidance and industry references. All existing chapter IDs remain searchable and linkable.
+- **Working examples:** local handbook interactions and the imported React component lab, including navigation, Inbox filters, selectors, confirmation dialogs and tables.
+- **Reusable source:** tokens, module/utility icons, component packages, Markdown chapters and a machine-readable index.
+- **Generic documentation site:** its existing tokens, React primitives, playgrounds and fictional CRM remain available.
 
-- **Framework:** [Next.js](https://nextjs.org) (App Router) + MDX
-- **Deploy:** GitHub Pages (production from `main`); the standard Next.js build remains available for other hosts.
-- **Repo:** pnpm workspaces + [Turborepo](https://turborepo.com) monorepo
-- **License:** MIT
+The handbook records both implemented components and proposed design rules. A demo is not evidence of completed App adoption. The imported library and the existing documentation site's tokens remain separate, versioned implementations; this migration does not silently unify their values or APIs.
 
 ## Structure
 
-```
-apps/
-  docs/        # The deployed documentation site
-packages/
-  react/       # Interactive component library
-  tokens/      # Design tokens (DTCG JSON → CSS / TS)
-content/       # All MDX docs copy lives here (editable without touching code)
-guidelines/    # Accessibility, voice & tone (referenced from content/)
-assets/        # Illustrations, logos, fonts
+```text
+apps/docs/          Documentation website (Next.js + MDX)
+packages/          Generic React primitives and tokens
+content/           Generic documentation and example notes
+library/
+  handbook/src/    Complete handbook source and interactions
+  handbook/pages/  Generated Markdown chapters
+  packages/        Imported React 18 / MUI component source
+  apps/storybook/  Package-backed interactive examples
+  spec/           Design contracts and decisions
+  assets/         Curated icons, fonts and redacted case assets
+scripts/           Build, verification and deployment assembly
 ```
 
 ## Local development
 
 ```bash
-pnpm install
+pnpm install --frozen-lockfile
+pnpm library:install
+pnpm library:lab
 pnpm dev
 ```
 
-Then open <http://localhost:3000>.
+Open <http://localhost:3000>. The complete handbook is at `/handbook/index.html`; the component lab is at `/lab/index.html`.
 
-## Contributing
+```bash
+pnpm handbook:build
+pnpm handbook:test
+PAGES_DEPLOY=true pnpm build
+```
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md). All content edits go through MDX
-files in `content/` — no app code changes required for copy updates.
+GitHub Pages publishes from `main`. The complete library uses its own npm lockfile to preserve its React 18/MUI dependencies alongside the documentation site's React 19 workspace.
+
+## Source and versions
+
+[Import provenance](library/README.md) · [Changelog](CHANGELOG.md) · [AI-readable index](library/handbook/agent-index.json) · [Contribution guide](CONTRIBUTING.md)
+
+Historical product names remain only where they identify the actual source of a case, implementation or asset. The current system has an independent name and identity.
 
 ## License
 
-MIT. See [LICENSE](./LICENSE).
+MIT for this repository's authored software. Preserve the imported [third-party notices](library/THIRD_PARTY_NOTICES.md), [font license](library/assets/fonts/sora/OFL.txt) and [channel-asset provenance](library/assets/brand/channels/README.md). Third-party marks are not licensed as this system's own branding.

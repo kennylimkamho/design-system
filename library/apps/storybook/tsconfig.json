@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "paths": {
+      "@chatdaddy/tokens": ["../../packages/tokens/src/index.ts"],
+      "@chatdaddy/theme": ["../../packages/theme/src/index.ts"],
+      "@chatdaddy/icons": ["../../packages/icons/src/index.ts"],
+      "@chatdaddy/stores": ["../../packages/stores/src/index.ts"],
+      "@chatdaddy/components": ["../../packages/components/src/index.ts"]
+    }
+  },
+  "include": ["src", ".storybook"]
+}

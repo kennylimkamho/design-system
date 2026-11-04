@@ -1,0 +1,2209 @@
+{
+  "schemaVersion": 1,
+  "primarySections": [
+    {
+      "id": "background",
+      "label": "Background",
+      "groups": [
+        "開場",
+        "Founder’s Note",
+        "基礎元素"
+      ]
+    },
+    {
+      "id": "principles",
+      "label": "Principles",
+      "landing": "principles",
+      "groups": [
+        "Design Principles"
+      ]
+    },
+    {
+      "id": "modules",
+      "label": "Key Modules",
+      "groups": [
+        "Key Modules"
+      ]
+    },
+    {
+      "id": "flows",
+      "label": "Flow Design",
+      "landing": "onboarding",
+      "groups": [
+        "業務致勝與 Flow Design"
+      ]
+    },
+    {
+      "id": "cases",
+      "label": "Case Study",
+      "groups": [
+        "Case Study Library"
+      ]
+    },
+    {
+      "id": "motion",
+      "label": "Motion Lab",
+      "groups": [
+        "Motion Lab"
+      ]
+    },
+    {
+      "id": "ai-infra",
+      "label": "AI Infra",
+      "groups": [
+        "AI Agent 使用與版本治理"
+      ]
+    },
+    {
+      "id": "others",
+      "label": "Others",
+      "groups": [
+        "Industry Info · 行業資訊",
+        "檔案庫"
+      ]
+    }
+  ],
+  "ruleCodes": [
+    {
+      "code": "SD-1",
+      "chapter": "smart-defaults",
+      "description": "安全、有上下文而且可改嘅預設",
+      "anchor": "smart-defaults",
+      "status": "draft-specification"
+    },
+    {
+      "code": "GG-1",
+      "chapter": "goal-gradient",
+      "description": "真實進度與下一步",
+      "anchor": "goal-gradient",
+      "status": "draft-specification"
+    },
+    {
+      "code": "RC-1",
+      "chapter": "reciprocity",
+      "description": "先體驗價值",
+      "anchor": "reciprocity",
+      "status": "draft-specification"
+    },
+    {
+      "code": "OWN-1",
+      "chapter": "ownership",
+      "description": "成果可見、可命名、可恢復",
+      "anchor": "ownership",
+      "status": "draft-specification"
+    },
+    {
+      "code": "LA-1",
+      "chapter": "loss-aversion",
+      "description": "不可逆損失先確認",
+      "anchor": "loss-aversion",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CT-1",
+      "chapter": "contrast",
+      "description": "有意義嘅對比",
+      "anchor": "contrast",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CPR-1",
+      "chapter": "compression",
+      "description": "壓縮但不隱藏必要資訊",
+      "anchor": "compression",
+      "status": "draft-specification"
+    },
+    {
+      "code": "VP-1",
+      "chapter": "visual-path",
+      "description": "視覺順序跟任務",
+      "anchor": "visual-path",
+      "status": "draft-specification"
+    },
+    {
+      "code": "LF-1",
+      "chapter": "logical-flow",
+      "description": "清晰因果與返回",
+      "anchor": "logical-flow",
+      "status": "draft-specification"
+    },
+    {
+      "code": "TF-1",
+      "chapter": "task-first",
+      "description": "任務優先",
+      "anchor": "task-first",
+      "status": "draft-specification"
+    },
+    {
+      "code": "LSR-1",
+      "chapter": "live-state-concerns",
+      "description": "未知不可扮零或成功",
+      "anchor": "live-state-concerns",
+      "status": "draft-specification"
+    },
+    {
+      "code": "DJ-1",
+      "chapter": "durable-jobs",
+      "description": "完整持久工作循環",
+      "anchor": "durable-jobs",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CT-MOMENT-DECIDE",
+      "chapter": "content-timing",
+      "description": "內容時刻 · DECIDE",
+      "anchor": "content-timing",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CT-MOMENT-ACT",
+      "chapter": "content-timing",
+      "description": "內容時刻 · ACT",
+      "anchor": "content-timing",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CT-MOMENT-RECOVER",
+      "chapter": "content-timing",
+      "description": "內容時刻 · RECOVER",
+      "anchor": "content-timing",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CT-MOMENT-USE",
+      "chapter": "content-timing",
+      "description": "內容時刻 · USE",
+      "anchor": "content-timing",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CT-MOMENT-REFERENCE",
+      "chapter": "content-timing",
+      "description": "內容時刻 · REFERENCE",
+      "anchor": "content-timing",
+      "status": "draft-specification"
+    },
+    {
+      "code": "MOT-1",
+      "chapter": "motion",
+      "description": "動效服務狀態與操作",
+      "anchor": "motion",
+      "status": "draft-specification"
+    },
+    {
+      "code": "MOT-2",
+      "chapter": "motion-recipes",
+      "description": "可中斷、可降動效嘅 recipes",
+      "anchor": "motion-recipes",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CD-ADOPT-1",
+      "chapter": "implementation",
+      "description": "來源核對再採用",
+      "anchor": "implementation",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CD-ADOPT-4",
+      "chapter": "handoff",
+      "description": "交付與驗收",
+      "anchor": "handoff",
+      "status": "draft-specification"
+    },
+    {
+      "code": "CD-ADOPT-5",
+      "chapter": "ai-agent-guide",
+      "description": "AI Agent 先核對規則狀態",
+      "anchor": "ai-agent-guide",
+      "status": "draft-specification"
+    }
+  ],
+  "version": "1.4.0-draft.9",
+  "updatedAt": "2026-11-04T14:22:33+08:00",
+  "timezone": "Asia/Hong_Kong",
+  "usage": "Read chapter rules and evidence before reusing a specimen. Example UI is fictional; a proposal does not mean App adoption.",
+  "chapters": [
+    {
+      "id": "cover",
+      "title": "開場 · 呢份手冊嘅旅程",
+      "group": "開場",
+      "summary": "由產品判斷到實際元件，保存 Kenny Lim 嘅設計方向，亦保存每次改版嘅證據與界線。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#cover",
+      "markdown": "pages/cover.md"
+    },
+    {
+      "id": "how-to-read",
+      "title": "點讀呢份手冊",
+      "group": "開場",
+      "summary": "新設計師由任務讀起，工程師由來源核對，AI Agent 由規則狀態與索引開始。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#how-to-read",
+      "markdown": "pages/how-to-read.md"
+    },
+    {
+      "id": "founder-note",
+      "title": "Kenny Lim · 點解要有呢套系統",
+      "group": "Founder’s Note",
+      "summary": "一套設計系統唔止統一畫面，仲要保存產品判斷：用戶點完成工作、點建立信任、點持續進步。",
+      "ruleStatus": "editorial",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/feature-workspaces.md",
+        "spec/cross-task-design-audit.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#founder-note",
+      "markdown": "pages/founder-note.md"
+    },
+    {
+      "id": "start",
+      "title": "新設計師，由這裡開始",
+      "group": "Founder’s Note",
+      "summary": "先知道正在設計哪一種任務，再選版面、元件與狀態。這是可查閱的工作手冊，不是概念簡報。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/decisions.json",
+        "spec/adoption.md",
+        "spec/cross-task-design-audit.md",
+        "spec/module-code-extraction.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [
+        {
+          "id": "primary-rail",
+          "source": "packages/components/src/layout/NavigationRailShell.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-app-derived-navigation--primary-rail"
+        },
+        {
+          "id": "inbox-filters",
+          "source": "packages/components/src/inbox/InboxFilters.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-app-derived-inbox-filters--controlled-filters-and-actions"
+        },
+        {
+          "id": "module-icons",
+          "source": "packages/icons/src/ModuleIcon.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/icons-moduleicon--all-approved-modules"
+        }
+      ],
+      "htmlAnchor": "#start",
+      "markdown": "pages/start.md"
+    },
+    {
+      "id": "color",
+      "title": "色彩與語意",
+      "group": "基礎元素",
+      "summary": "保留 ChatDaddy 品牌，同時分清 action、selection、status、surface 與資料視覺化。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/tokens.json",
+        "packages/tokens/src/colors.ts"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#color",
+      "markdown": "pages/color.md"
+    },
+    {
+      "id": "typography",
+      "title": "字體與排版",
+      "group": "基礎元素",
+      "summary": "從頁面標題到一個時間戳，明確知道字體、字重、字級、行高與使用場合。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/tokens/src/typography.ts",
+        "apps/storybook/src/tokens/Typography.stories.tsx",
+        "spec/foundations.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#typography",
+      "markdown": "pages/typography.md"
+    },
+    {
+      "id": "spacing",
+      "title": "間距與密度",
+      "group": "基礎元素",
+      "summary": "用一致的距離表達關聯，不靠隨機 padding 或更多邊框整理內容。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/tokens/src/spacing.ts",
+        "spec/tokens.json"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#spacing",
+      "markdown": "pages/spacing.md"
+    },
+    {
+      "id": "surfaces",
+      "title": "圓角、邊框與層次",
+      "group": "基礎元素",
+      "summary": "用少量、可預測的層次表達內容與浮層，不讓每個區塊都像可點擊卡片。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/tokens/src/radius.ts",
+        "packages/tokens/src/shadows.ts",
+        "packages/tokens/src/zIndex.ts"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#surfaces",
+      "markdown": "pages/surfaces.md"
+    },
+    {
+      "id": "icons",
+      "title": "Icons 與品牌資產",
+      "group": "基礎元素",
+      "summary": "模組有 ChatDaddy 個性；一般操作使用清晰、熟悉的共通語言。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/icon-map.json",
+        "spec/icons.md",
+        "spec/module-icon-decisions.json",
+        "assets/icons/modules/source.json",
+        "packages/icons/src/AppIcon.tsx",
+        "packages/icons/src/PlatformIcon.tsx"
+      ],
+      "evidence": [],
+      "runtimePatterns": [
+        {
+          "id": "module-icons",
+          "source": "packages/icons/src/ModuleIcon.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/icons-moduleicon--all-approved-modules"
+        }
+      ],
+      "htmlAnchor": "#icons",
+      "markdown": "pages/icons.md"
+    },
+    {
+      "id": "icon-identity",
+      "title": "Logo 與 Icon 分層",
+      "group": "基礎元素",
+      "summary": "App 說明是誰，channel 說明從哪裡來，module 說明在哪裡工作；操作圖示只說明可以做什麼。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/icon-identity.md",
+        "assets/brand/channels/manifest.json",
+        "assets/brand/channels/README.md",
+        "handbook/src/channel-model.mjs",
+        "handbook/src/identity-surfaces.mjs",
+        "handbook/src/integration-card.mjs",
+        "packages/icons/src/ModuleIcon.tsx",
+        "packages/icons/src/AppIcon.tsx",
+        "packages/icons/src/PlatformIcon.tsx"
+      ],
+      "evidence": [
+        {
+          "title": "WhatsApp 官方品牌資源",
+          "url": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/"
+        },
+        {
+          "title": "WhatsApp Business App 官方產品說明",
+          "url": "https://business.whatsapp.com/products/business-app"
+        },
+        {
+          "title": "Meta 官方 Cloud API collection",
+          "url": "https://www.postman.com/meta/whatsapp-business-platform/documentation/wlk6lh4/whatsapp-cloud-api"
+        },
+        {
+          "title": "WABA 名稱：WhatsApp Business Account",
+          "url": "https://www.whatsapp.com/legal/business-solution-terms"
+        },
+        {
+          "title": "Coexistence 開通文件（本次直接讀取受 429 限制）",
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/onboarding-business-app-users"
+        },
+        {
+          "title": "Messenger 官方 icon（2025 更新）",
+          "url": "https://www.meta.com/brand/resources/facebook/messenger-icon/"
+        },
+        {
+          "title": "Instagram 官方品牌資源",
+          "url": "https://www.meta.com/brand/resources/instagram/instagram-brand/"
+        },
+        {
+          "title": "TikTok Brand Hub（資產版本待核對）",
+          "url": "https://www.tiktokbrandhub.com/visual-identity/logo"
+        }
+      ],
+      "runtimePatterns": [
+        {
+          "id": "module-icons",
+          "source": "packages/icons/src/ModuleIcon.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/icons-moduleicon--all-approved-modules"
+        }
+      ],
+      "htmlAnchor": "#icon-identity",
+      "markdown": "pages/icon-identity.md"
+    },
+    {
+      "id": "content",
+      "title": "文案、語言與資料格式",
+      "group": "基礎元素",
+      "summary": "讓文字幫助完成任務；中英混排、日期、空值都有固定處理方式。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/accessibility-content.md",
+        "spec/data-display.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#content",
+      "markdown": "pages/content.md"
+    },
+    {
+      "id": "layout",
+      "title": "App shell 與頁面骨架",
+      "group": "基礎元素",
+      "summary": "設計新頁面之前先套骨架，確保 header、toolbar、內容和操作在同一套座標上。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/layout/AppShell.tsx",
+        "packages/components/src/layout/PageWrapper.tsx",
+        "spec/navigation.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#layout",
+      "markdown": "pages/layout.md"
+    },
+    {
+      "id": "navigation",
+      "title": "Menu、secondary menu 與 tabs",
+      "group": "基礎元素",
+      "summary": "每一層都回答不同問題；不要因為看起來相似就用同一種控件。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/navigation.md",
+        "packages/components/src/layout/NavigationRailShell.tsx",
+        "packages/components/src/layout/WorkspaceNavigation.tsx",
+        "apps/storybook/src/molecules/Tabs.stories.tsx"
+      ],
+      "evidence": [],
+      "runtimePatterns": [
+        {
+          "id": "primary-rail",
+          "source": "packages/components/src/layout/NavigationRailShell.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-app-derived-navigation--primary-rail"
+        },
+        {
+          "id": "secondary-menu",
+          "source": "packages/components/src/layout/WorkspaceNavigation.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-app-derived-navigation--secondary-menu"
+        }
+      ],
+      "htmlAnchor": "#navigation",
+      "markdown": "pages/navigation.md"
+    },
+    {
+      "id": "responsive",
+      "title": "Responsive 與縮放",
+      "group": "基礎元素",
+      "summary": "以任務所需空間決定 reflow；手機不是把 desktop 等比例縮細。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/navigation.md",
+        "spec/adoption.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#responsive",
+      "markdown": "pages/responsive.md"
+    },
+    {
+      "id": "hover",
+      "title": "Hover 與漸進披露",
+      "group": "基礎元素",
+      "summary": "善用hover保持頁面簡潔，讓次要操作在需要時出現；重要功能不能只能靠滑鼠發現。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/navigation.md",
+        "spec/data-display.md",
+        "spec/icon-identity.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#hover",
+      "markdown": "pages/hover.md"
+    },
+    {
+      "id": "buttons",
+      "title": "Buttons 與 icon buttons",
+      "group": "基礎元素",
+      "summary": "按鈕執行動作；link 前往目的地。層級由任務重要性決定，而不是用不同顏色裝飾。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "apps/storybook/src/atoms/Button.stories.tsx",
+        "packages/theme/src/index.ts"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#buttons",
+      "markdown": "pages/buttons.md"
+    },
+    {
+      "id": "fields",
+      "title": "Text fields 與 validation",
+      "group": "基礎元素",
+      "summary": "label、輸入、helper、error 是一個完整元件，不是孤立的輸入框。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "apps/storybook/src/molecules/FormField.stories.tsx",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#fields",
+      "markdown": "pages/fields.md"
+    },
+    {
+      "id": "selection",
+      "title": "Checkbox、radio 與 switch",
+      "group": "基礎元素",
+      "summary": "讓使用者知道是選取多個項目、挑一個選項，還是立即開關設定。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "apps/storybook/src/atoms/Switch.stories.tsx",
+        "spec/data-display.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#selection",
+      "markdown": "pages/selection.md"
+    },
+    {
+      "id": "selectors",
+      "title": "Select、搜尋與多選",
+      "group": "基礎元素",
+      "summary": "少量固定選項用簡單 select；人員、tag、channel 等資料集合用可搜尋 selector。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/selectors/SelectorPopover.tsx",
+        "packages/components/src/selectors/TagSelectorDropdown.tsx",
+        "packages/components/src/selectors/TeamMemberSelector.tsx",
+        "packages/components/src/selectors/ChannelSelector.tsx"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#selectors",
+      "markdown": "pages/selectors.md"
+    },
+    {
+      "id": "tables",
+      "title": "Data table 與列表",
+      "group": "基礎元素",
+      "summary": "一張可用的表格要讓人辨認資料、比較欄位、控制範圍，而不只是把資料放進格子。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/display/PaginatedDataGrid.tsx",
+        "packages/components/src/display/VirtualScrollList.tsx",
+        "spec/data-display.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#tables",
+      "markdown": "pages/tables.md"
+    },
+    {
+      "id": "filters",
+      "title": "搜尋、篩選與 saved views",
+      "group": "基礎元素",
+      "summary": "讓使用者清楚知道現在看的是哪一部分資料，以及怎樣回到全貌。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/inputs/SearchField.tsx",
+        "apps/storybook/src/molecules/FilterChipRow.stories.tsx"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#filters",
+      "markdown": "pages/filters.md"
+    },
+    {
+      "id": "status",
+      "title": "Badge、tag 與 avatar",
+      "group": "基礎元素",
+      "summary": "Badge 描述狀態，tag 分類資料，avatar 協助辨認身份；三者不能互相代替。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/display/TagChip.tsx",
+        "apps/storybook/src/atoms/Avatar.stories.tsx",
+        "apps/storybook/src/atoms/Badge.stories.tsx"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#status",
+      "markdown": "pages/status.md"
+    },
+    {
+      "id": "cards",
+      "title": "Cards、list rows 與空間分組",
+      "group": "基礎元素",
+      "summary": "Card 用於獨立内容；row 用於重複掃描；不要把一個頁面切成沒有意義的盒子。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "apps/storybook/src/organisms/KanbanCard.stories.tsx",
+        "spec/foundations.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#cards",
+      "markdown": "pages/cards.md"
+    },
+    {
+      "id": "overlays",
+      "title": "Dialog、drawer 與 popover",
+      "group": "基礎元素",
+      "summary": "依任務決定打斷程度：需要回答才 modal，只補充 context 就用較輕的浮層。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/feedback/ConfirmDialog.tsx",
+        "packages/components/src/feedback/DeleteConfirmDialog.tsx",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#overlays",
+      "markdown": "pages/overlays.md"
+    },
+    {
+      "id": "feedback",
+      "title": "Toast、banner 與 tooltip",
+      "group": "基礎元素",
+      "summary": "反饋的強度必須與事件的重要性相稱；可恢復的問題要保留解決入口。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/layout/ToastStack.tsx",
+        "apps/storybook/src/atoms/Tooltip.stories.tsx"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#feedback",
+      "markdown": "pages/feedback.md"
+    },
+    {
+      "id": "states",
+      "title": "Loading、empty、error 與權限",
+      "group": "基礎元素",
+      "summary": "一個頁面不是只有「有資料」這個狀態。每種狀態都要解釋原因與下一步。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/components.md",
+        "packages/components/src/display/PaginatedDataGrid.tsx"
+      ],
+      "evidence": [],
+      "runtimePatterns": [
+        {
+          "id": "analytics-loading-skeletons",
+          "source": "packages/components/src/display/AnalyticsLoadingSkeletons.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-analytics-loading-skeletons--chart-and-table"
+        }
+      ],
+      "htmlAnchor": "#states",
+      "markdown": "pages/states.md"
+    },
+    {
+      "id": "special-fields",
+      "title": "電話、檔案與特殊欄位",
+      "group": "基礎元素",
+      "summary": "沿用既有語意與安全契約，設計系統只統一呈現與可操作性。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/inputs/PhoneNumberInput.tsx",
+        "packages/components/src/inputs/FileUploadDropzone.tsx",
+        "packages/components/src/inputs/CopyButton.tsx"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#special-fields",
+      "markdown": "pages/special-fields.md"
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility 驗收",
+      "group": "基礎元素",
+      "summary": "從設計開始就交付 keyboard、focus、文字與狀態；不能等完成頁面後才補一層ARIA。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/accessibility-content.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#accessibility",
+      "markdown": "pages/accessibility.md"
+    },
+    {
+      "id": "content-strategy",
+      "title": "內容策略 · 時刻 × 頁面類型",
+      "group": "Design Principles",
+      "summary": "頁面結構同內容時刻係兩個維度；每種結構都可能需要決定、行動、補救、使用與參考資訊。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#content-strategy",
+      "markdown": "pages/content-strategy.md"
+    },
+    {
+      "id": "p-class-patterns",
+      "title": "P1–P4 · 用工作揀結構",
+      "group": "Design Principles",
+      "summary": "Wizard、Settings、Automation object 同 Workspace 服務不同工作，唔係用同一種畫面套晒所有功能。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#p-class-patterns",
+      "markdown": "pages/p-class-patterns.md"
+    },
+    {
+      "id": "principles",
+      "title": "設計原則與取捨",
+      "group": "Design Principles",
+      "summary": "讓新功能看起來屬於同一個產品，也讓使用者對每一下操作有穩定預期。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#principles",
+      "markdown": "pages/principles.md"
+    },
+    {
+      "id": "smart-defaults",
+      "title": "01 · Smart defaults",
+      "group": "Design Principles",
+      "summary": "用可靠的上下文減少重複決定，讓使用者調整一個合理起點，而不是每次由零開始。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#smart-defaults",
+      "markdown": "pages/smart-defaults.md"
+    },
+    {
+      "id": "goal-gradient",
+      "title": "02 · Goal gradient",
+      "group": "Design Principles",
+      "summary": "讓使用者看見已完成的真實工作及清楚終點，把複雜任務拆成可完成的階段。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#goal-gradient",
+      "markdown": "pages/goal-gradient.md"
+    },
+    {
+      "id": "reciprocity",
+      "title": "03 · Reciprocity",
+      "group": "Design Principles",
+      "summary": "先提供真實、有用的預覽或結果，再讓使用者决定下一步；不要只用模糊承諾要求承諾。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#reciprocity",
+      "markdown": "pages/reciprocity.md"
+    },
+    {
+      "id": "ownership",
+      "title": "04 · IKEA effect & ownership",
+      "group": "Design Principles",
+      "summary": "讓使用者命名、配置、試驗自己的工作成果，再決定儲存或發布。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#ownership",
+      "markdown": "pages/ownership.md"
+    },
+    {
+      "id": "loss-aversion",
+      "title": "05 · Loss aversion & status quo",
+      "group": "Design Principles",
+      "summary": "清楚交代變更會失去什麼，以及保留現狀的後果，協助知情決定。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#loss-aversion",
+      "markdown": "pages/loss-aversion.md"
+    },
+    {
+      "id": "contrast",
+      "title": "06 · Contrast effect",
+      "group": "Design Principles",
+      "summary": "提供公平、同單位的對照，讓使用者理解差異；不以不相關的大數字製造錯覺。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#contrast",
+      "markdown": "pages/contrast.md"
+    },
+    {
+      "id": "compression",
+      "title": "07 · Visual compression",
+      "group": "Design Principles",
+      "summary": "用恰當的字重、標記與分組減少重複資訊；精簡不等於移除理解所需的內容。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#compression",
+      "markdown": "pages/compression.md"
+    },
+    {
+      "id": "visual-path",
+      "title": "08 · Visual path",
+      "group": "Design Principles",
+      "summary": "用對齊、順序與視覺權重引導掃描；不要讓所有元素同時爭取注意力。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#visual-path",
+      "markdown": "pages/visual-path.md"
+    },
+    {
+      "id": "logical-flow",
+      "title": "09 · Logical flow",
+      "group": "Design Principles",
+      "summary": "按使用者提出問題的順序安排資訊，讓每個區段自然帶到下一步。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#logical-flow",
+      "markdown": "pages/logical-flow.md"
+    },
+    {
+      "id": "task-first",
+      "title": "任務優先 · 由目標揀畫面",
+      "group": "Design Principles",
+      "summary": "先定義用戶想完成的工作、需要的證據與下一步，才選 table、catalog、setup flow 或 workspace。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/cross-task-design-audit.md",
+        "spec/navigation.md",
+        "spec/data-display.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#task-first",
+      "markdown": "pages/task-first.md"
+    },
+    {
+      "id": "live-state-concerns",
+      "title": "Live-state design concerns · 以真實狀態設計",
+      "group": "Design Principles",
+      "summary": "由 App 新改動提煉五項跨頁面規則：真實成功、列表狀態、逐步揭示、幫助恢復，以及數據與功能聲稱的證據。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/live-state-design-concerns.md",
+        "spec/feature-workspaces.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#live-state-concerns",
+      "markdown": "pages/live-state-concerns.md"
+    },
+    {
+      "id": "durable-jobs",
+      "title": "20 年都成立嘅工作循環",
+      "group": "Design Principles",
+      "summary": "產品可換介面、渠道同技術，但持續存在嘅用戶任務唔應該被新 UI 截斷。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/feature-workspaces.md",
+        "spec/content-timing.md",
+        "spec/data-display.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#durable-jobs",
+      "markdown": "pages/durable-jobs.md"
+    },
+    {
+      "id": "contacts",
+      "title": "Contacts · 資料管理頁",
+      "group": "Key Modules",
+      "summary": "共用資料頁模式：先找到資料，再查看詳情，最後完成有明確範圍的操作。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/display/PaginatedDataGrid.tsx",
+        "packages/components/src/selectors/ContactSelector.tsx",
+        "spec/cross-task-design-audit.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#contacts",
+      "markdown": "pages/contacts.md"
+    },
+    {
+      "id": "inbox",
+      "title": "Inbox · 客服工作區",
+      "group": "Key Modules",
+      "summary": "閱讀、回覆與上下文是核心。讓高頻工作迅速，但不犧牲日期、身份與訊息狀態。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/inbox/InboxFilters.tsx",
+        "apps/storybook/src/templates/ChatLayout.stories.tsx",
+        "apps/storybook/src/organisms/ChatListItem.stories.tsx",
+        "apps/storybook/src/organisms/ChatBubble.stories.tsx",
+        "spec/cross-task-design-audit.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [
+        {
+          "id": "inbox-filters",
+          "source": "packages/components/src/inbox/InboxFilters.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-app-derived-inbox-filters--controlled-filters-and-actions"
+        }
+      ],
+      "htmlAnchor": "#inbox",
+      "markdown": "pages/inbox.md"
+    },
+    {
+      "id": "automation",
+      "title": "Automation · 列表與編輯器",
+      "group": "Key Modules",
+      "summary": "把流程管理與流程編輯分開：找到流程用列表，編輯邏輯用足夠大的工作區。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/navigation.md",
+        "spec/adoption.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#automation",
+      "markdown": "pages/automation.md"
+    },
+    {
+      "id": "settings",
+      "title": "Settings · 分組表單",
+      "group": "Key Modules",
+      "summary": "讓人知道正在改哪一組設定、是否已儲存、離開會否失去修改。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/layout/PageWrapper.tsx",
+        "spec/components.md",
+        "spec/cross-task-design-audit.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#settings",
+      "markdown": "pages/settings.md"
+    },
+    {
+      "id": "analytics",
+      "title": "Analytics · 指標與圖表",
+      "group": "Key Modules",
+      "summary": "先說明數字代表什麼、對比什麼，才決定用哪一種圖。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "apps/storybook/src/templates/DashboardLayout.stories.tsx",
+        "spec/README.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [
+        {
+          "id": "analytics-loading-skeletons",
+          "source": "packages/components/src/display/AnalyticsLoadingSkeletons.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-analytics-loading-skeletons--chart-and-table"
+        }
+      ],
+      "htmlAnchor": "#analytics",
+      "markdown": "pages/analytics.md"
+    },
+    {
+      "id": "channels",
+      "title": "Channels 與 Broadcasts",
+      "group": "Key Modules",
+      "summary": "連線狀態、發送狀態、商業權限分清楚，避免用同一個綠點代表所有事情。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/selectors/ChannelSelector.tsx",
+        "spec/components.md",
+        "spec/cross-task-design-audit.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#channels",
+      "markdown": "pages/channels.md"
+    },
+    {
+      "id": "login",
+      "title": "Login 與品牌故事",
+      "group": "Key Modules",
+      "summary": "登入表單優先；故事與氛圍可以豐富，但不能搶走完成登入的空間。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/README.md",
+        "spec/accessibility-content.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#login",
+      "markdown": "pages/login.md"
+    },
+    {
+      "id": "integrations",
+      "title": "Integrations · 探索到連結",
+      "group": "Key Modules",
+      "summary": "第一屏幫用戶找到合適的整合；卡片先呈現連結目標，再按需要顯示設定、教學與技術細節。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/cross-task-design-audit.md",
+        "spec/icon-identity.md",
+        "spec/navigation.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#integrations",
+      "markdown": "pages/integrations.md"
+    },
+    {
+      "id": "onboarding",
+      "title": "First-use 與角色導向 onboarding",
+      "group": "業務致勝與 Flow Design",
+      "summary": "由第一個成功時刻開始，以角色的職責與客戶價值決定引導內容；Home 或獨立 onboarding 的位置仍待驗證。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/cross-task-design-audit.md",
+        "spec/adoption.md",
+        "spec/components.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#onboarding",
+      "markdown": "pages/onboarding.md"
+    },
+    {
+      "id": "content-timing",
+      "title": "內容跟住時刻走",
+      "group": "業務致勝與 Flow Design",
+      "summary": "先決定用戶要完成甚麼，再決定呢一刻要講甚麼。決定、行動、補救、使用、參考各有位置；簡潔唔可以變成隱瞞。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/content-timing.md",
+        "spec/accessibility-content.md",
+        "spec/live-state-design-concerns.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#content-timing",
+      "markdown": "pages/content-timing.md"
+    },
+    {
+      "id": "activation-journey",
+      "title": "由連結渠道到首次價值",
+      "group": "業務致勝與 Flow Design",
+      "summary": "連結只係能力開通；第一則真實對話同角色所需結果，先係可驗證嘅價值。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/feature-workspaces.md",
+        "spec/content-timing.md",
+        "spec/live-state-design-concerns.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#activation-journey",
+      "markdown": "pages/activation-journey.md"
+    },
+    {
+      "id": "role-aha",
+      "title": "Management、Marketing、CS 嘅 Aha moment",
+      "group": "業務致勝與 Flow Design",
+      "summary": "同一個渠道接通之後，不同職責要從真實工作中看見不同價值。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/feature-workspaces.md",
+        "spec/live-state-design-concerns.md",
+        "spec/data-display.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#role-aha",
+      "markdown": "pages/role-aha.md"
+    },
+    {
+      "id": "case-library",
+      "title": "Case Study Library · 由證據到決策",
+      "group": "Case Study Library",
+      "summary": "用可追溯嘅 before／after 記住點解改，唔只儲存改完嘅畫面。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/feature-workspaces.md",
+        "spec/cross-task-design-audit.md",
+        "spec/module-code-extraction.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#case-library",
+      "markdown": "pages/case-library.md"
+    },
+    {
+      "id": "case-broadcasting",
+      "title": "Broadcasting · Before / After",
+      "group": "Case Study Library",
+      "summary": "向合適客戶傳達訊息，掌握發送動態，再用結果改善下一次。",
+      "ruleStatus": "proposal",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "not-deployed-by-this-release",
+      "scenarios": [
+        "策劃與設定",
+        "執行與掌握動態",
+        "結果、補救與學習"
+      ],
+      "sources": [
+        "spec/feature-workspaces.md",
+        "spec/data-display.md",
+        "spec/content-timing.md",
+        "spec/module-code-extraction.md"
+      ],
+      "evidence": [
+        {
+          "title": "App source · src/Broadcasts/AddEditBroadcast.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Broadcasts/AddEditBroadcast.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/Broadcasts/List.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Broadcasts/List.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/Broadcasts/OverviewDashboard/index.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Broadcasts/OverviewDashboard/index.tsx",
+          "kind": "observed-source"
+        }
+      ],
+      "runtimePatterns": [],
+      "htmlAnchor": "#case-broadcasting",
+      "markdown": "pages/case-broadcasting.md"
+    },
+    {
+      "id": "case-contacts",
+      "title": "Contacts · Before / After",
+      "group": "Case Study Library",
+      "summary": "搵到正確聯絡人、理解資料，再喺清楚範圍內完成更新。",
+      "ruleStatus": "proposal",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "not-deployed-by-this-release",
+      "scenarios": [
+        "尋找及縮窄",
+        "檢視與判斷",
+        "編輯／批次與返回"
+      ],
+      "sources": [
+        "spec/feature-workspaces.md",
+        "spec/data-display.md",
+        "spec/cross-task-design-audit.md"
+      ],
+      "evidence": [
+        {
+          "title": "App source · src/Audience/index.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Audience/index.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/Audience/contactColumns.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Audience/contactColumns.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/Audience/AudienceBulkActionDropdown.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Audience/AudienceBulkActionDropdown.tsx",
+          "kind": "observed-source"
+        }
+      ],
+      "runtimePatterns": [],
+      "htmlAnchor": "#case-contacts",
+      "markdown": "pages/case-contacts.md"
+    },
+    {
+      "id": "case-inbox",
+      "title": "Inbox · Before / After",
+      "group": "Case Study Library",
+      "summary": "找出需回覆嘅對話，在足夠上下文中回覆、分配與跟進。",
+      "ruleStatus": "proposal",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "not-deployed-by-this-release",
+      "scenarios": [
+        "識別待處理",
+        "閱讀／回覆／分配",
+        "確認狀態與跟進"
+      ],
+      "sources": [
+        "spec/cross-task-design-audit.md",
+        "spec/live-state-design-concerns.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [
+        {
+          "title": "App source · src/InboxV2/FilterPanel/ConversationFilters.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/InboxV2/FilterPanel/ConversationFilters.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/InboxV2/ChatList/ChatRow.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/InboxV2/ChatList/ChatRow.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/InboxV2/MessagePane/MessageBubble.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/InboxV2/MessagePane/MessageBubble.tsx",
+          "kind": "observed-source"
+        }
+      ],
+      "runtimePatterns": [],
+      "htmlAnchor": "#case-inbox",
+      "markdown": "pages/case-inbox.md"
+    },
+    {
+      "id": "case-automation",
+      "title": "Automation · Before / After",
+      "group": "Case Study Library",
+      "summary": "定義可靠觸發與動作，安全測試，發布後仍可監察及修正。",
+      "ruleStatus": "proposal",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "not-deployed-by-this-release",
+      "scenarios": [
+        "理解與建立",
+        "編輯／測試／發布",
+        "監察及修正"
+      ],
+      "sources": [
+        "spec/feature-workspaces.md",
+        "spec/components.md",
+        "spec/live-state-design-concerns.md"
+      ],
+      "evidence": [
+        {
+          "title": "App source · src/FlowBuilder/GlobalFlowBuilder.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/FlowBuilder/GlobalFlowBuilder.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/FlowBuilder/FlowSave.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/FlowBuilder/FlowSave.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/FlowBuilder/FlowOnboardingWizard.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/FlowBuilder/FlowOnboardingWizard.tsx",
+          "kind": "observed-source"
+        }
+      ],
+      "runtimePatterns": [],
+      "htmlAnchor": "#case-automation",
+      "markdown": "pages/case-automation.md"
+    },
+    {
+      "id": "case-integration",
+      "title": "Integration · Before / After",
+      "group": "Case Study Library",
+      "summary": "找到合適整合，清楚授權連結，之後能管理或恢復連線。",
+      "ruleStatus": "proposal",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "not-deployed-by-this-release",
+      "scenarios": [
+        "探索適合嘅 app",
+        "授權與連結",
+        "管理及恢復"
+      ],
+      "sources": [
+        "spec/feature-workspaces.md",
+        "spec/icon-identity.md",
+        "spec/live-state-design-concerns.md"
+      ],
+      "evidence": [
+        {
+          "title": "App source · src/AppStore/AppStoreBrowser.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/AppStore/AppStoreBrowser.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/AppStore/AppStoreFilters.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/AppStore/AppStoreFilters.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/AppStore/AppStoreInstaller.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/AppStore/AppStoreInstaller.tsx",
+          "kind": "observed-source"
+        }
+      ],
+      "runtimePatterns": [],
+      "htmlAnchor": "#case-integration",
+      "markdown": "pages/case-integration.md"
+    },
+    {
+      "id": "broadcast-learning",
+      "title": "群發 · Before / After 學習紀錄",
+      "group": "Case Study Library",
+      "summary": "將群發原型嘅產品理念轉成 ChatDaddy 元件與真實功能：分步決策、同步摘要、發送前確認及結果跟進。公開案例經匿名重建，原始截圖保留在私有紀錄。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/VISUAL-REVIEW.md",
+        "spec/data-display.md",
+        "spec/navigation.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#broadcast-learning",
+      "markdown": "pages/broadcast-learning.md"
+    },
+    {
+      "id": "motion-strategy",
+      "title": "Motion strategy · 回應、轉場、表現",
+      "group": "Motion Lab",
+      "summary": "動畫解釋因果與状态，唔阻住工作；三層動效共用既有規格同 reduced-motion 合約。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#motion-strategy",
+      "markdown": "pages/motion-strategy.md"
+    },
+    {
+      "id": "motion",
+      "title": "Motion language 與 micro animations",
+      "group": "Motion Lab",
+      "summary": "豐富的手感來自每一次操作都有合適回應，不是全頁一直動。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/motion.md",
+        "packages/tokens/src/motion.ts"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#motion",
+      "markdown": "pages/motion.md"
+    },
+    {
+      "id": "motion-recipes",
+      "title": "動效 recipes 與禁忌",
+      "group": "Motion Lab",
+      "summary": "把動效落在具體元件上，明確 trigger、完成、打斷與靜態替代。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/motion.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#motion-recipes",
+      "markdown": "pages/motion-recipes.md"
+    },
+    {
+      "id": "motion-lab",
+      "title": "Motion Lab · 有用嘅微動畫",
+      "group": "Motion Lab",
+      "summary": "動畫解釋狀態與因果；視覺驚喜可以有，但唔可以拖慢工作或遮住風險。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/motion.md",
+        "spec/accessibility-content.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [
+        {
+          "id": "analytics-loading-skeletons",
+          "source": "packages/components/src/display/AnalyticsLoadingSkeletons.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-analytics-loading-skeletons--chart-and-table"
+        }
+      ],
+      "htmlAnchor": "#motion-lab",
+      "markdown": "pages/motion-lab.md"
+    },
+    {
+      "id": "transitions-reference",
+      "title": "Motion Library · 場景到動效",
+      "group": "Motion Lab",
+      "summary": "先試互動，再決定適用場景。參考 transitions.dev 嘅示例導向思路，實作使用 ChatDaddy 規則、色彩與動效時間。",
+      "ruleStatus": "proposal",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "not-deployed-by-this-release",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/transitions-reference.mjs",
+        "handbook/src/motion-library.js",
+        "handbook/src/library-ui.css",
+        "spec/motion.md"
+      ],
+      "evidence": [
+        {
+          "title": "設計與互動參考 · transitions.dev",
+          "url": "https://transitions.dev/"
+        },
+        {
+          "title": "上游 repository（參考，未移植）",
+          "url": "https://github.com/Jakubantalik/transitions.dev"
+        },
+        {
+          "title": "上游授權界線",
+          "url": "https://github.com/Jakubantalik/transitions.dev/blob/main/LICENSE"
+        }
+      ],
+      "runtimePatterns": [],
+      "htmlAnchor": "#transitions-reference",
+      "markdown": "pages/transitions-reference.md"
+    },
+    {
+      "id": "implementation",
+      "title": "工程對應與 adoption",
+      "group": "AI Agent 使用與版本治理",
+      "summary": "同一個repo存規格、tokens、元件及示例，但清楚區分「規格已寫」與「產品已採用」。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "packages/components/src/index.ts",
+        "packages/tokens/src/index.ts",
+        "spec/adoption.md",
+        "spec/module-code-extraction.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [
+        {
+          "id": "primary-rail",
+          "source": "packages/components/src/layout/NavigationRailShell.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-app-derived-navigation--primary-rail"
+        },
+        {
+          "id": "secondary-menu",
+          "source": "packages/components/src/layout/WorkspaceNavigation.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-app-derived-navigation--secondary-menu"
+        },
+        {
+          "id": "inbox-filters",
+          "source": "packages/components/src/inbox/InboxFilters.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-app-derived-inbox-filters--controlled-filters-and-actions"
+        },
+        {
+          "id": "module-icons",
+          "source": "packages/icons/src/ModuleIcon.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/icons-moduleicon--all-approved-modules"
+        },
+        {
+          "id": "analytics-loading-skeletons",
+          "source": "packages/components/src/display/AnalyticsLoadingSkeletons.tsx",
+          "story": "https://kennylimkamho.github.io/design-system/lab/?path=/story/organisms-analytics-loading-skeletons--chart-and-table"
+        }
+      ],
+      "htmlAnchor": "#implementation",
+      "markdown": "pages/implementation.md"
+    },
+    {
+      "id": "handoff",
+      "title": "設計交付與版本治理",
+      "group": "AI Agent 使用與版本治理",
+      "summary": "交付的不只是一張畫面，而是一份工程師能實作、測試者能驗收的契約。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/governance.md",
+        "CHANGELOG.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#handoff",
+      "markdown": "pages/handoff.md"
+    },
+    {
+      "id": "ai-agent-guide",
+      "title": "AI Agent 點樣安全用 Design System",
+      "group": "AI Agent 使用與版本治理",
+      "summary": "同一份 Handbook 俾設計師、工程師同 AI Agent 用，但 draft、示例與真實 App 能力要嚴格分開。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "spec/adoption.md",
+        "spec/module-code-extraction.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#ai-agent-guide",
+      "markdown": "pages/ai-agent-guide.md"
+    },
+    {
+      "id": "industry-whatsapp-flows-iab",
+      "title": "Industry Info · WhatsApp Flows / IAB",
+      "group": "Industry Info · 行業資訊",
+      "summary": "兩條路都可以留喺 WhatsApp 入面完成工作：Flows 係平台提供嘅原生體驗，IAB 係開啟你自己嘅網頁。行業參考，唔係已部署能力或永久政策。",
+      "ruleStatus": "industry-reference-not-normative",
+      "checkedAt": "2026-10-01T14:49:55+08:00",
+      "claims": [
+        {
+          "id": "native",
+          "status": "official-source",
+          "text": "Flows 喺 WhatsApp 內完成多步任務；Meta 提供 builder／API。",
+          "sources": [
+            "meta-flows"
+          ]
+        },
+        {
+          "id": "webhook",
+          "status": "provider-documented",
+          "text": "Twilio 整合：提交經 sender webhook 返回，InteractiveData 載有結構化答案；其他 provider 欄位另核對。",
+          "sources": [
+            "twilio-flows"
+          ]
+        },
+        {
+          "id": "flow-limits",
+          "status": "provider-documented",
+          "text": "AWS：Flow JSON 定義最大 10 MB；動態 endpoint 須在 10 秒內回應。呢個 10 MB 唔等於每次 data exchange payload 上限。",
+          "sources": [
+            "aws-limits"
+          ]
+        },
+        {
+          "id": "publish",
+          "status": "provider-documented",
+          "text": "AWS：修改已發布 Flow assets 會返回 DRAFT，須重新發布；唔可以當成已發布畫面可直接熱更新。Meta 直接 API 契約另核對。",
+          "sources": [
+            "aws-assets"
+          ]
+        },
+        {
+          "id": "iab-scope",
+          "status": "provider-documented",
+          "text": "Sprinklr 記錄 marketing／utility template CTA URL 開 IAB；free-form／reply links 仍開外部瀏覽器，亦可由用戶選外部開啟。",
+          "sources": [
+            "sprinklr-iab"
+          ]
+        },
+        {
+          "id": "iab-entitlement",
+          "status": "provider-documented",
+          "text": "Sprinklr 記錄每日 1,000 或以上 messaging limit；呢個係容量門檻，唔係每日一定要發 1,000 條。帳戶與 rollout 必須再核實。",
+          "sources": [
+            "sprinklr-iab"
+          ]
+        },
+        {
+          "id": "iab-payments",
+          "status": "provider-documented",
+          "text": "Sprinklr 記錄 payment links 可開 IAB；唔代表每個支付 SDK、3DS、登入、deep link 或 permission 都正常。",
+          "sources": [
+            "sprinklr-iab"
+          ]
+        },
+        {
+          "id": "pricing",
+          "status": "conflicting-sources",
+          "text": "提交資料稱 2026-10-01 開始 service 按條收費、每號碼每月首 1,000 條免費；本次可讀 Meta 公開頁仍稱 service 免費。生效規則未解決，不作免費或收費承諾。",
+          "sources": [
+            "meta-pricing",
+            "meta-service-pricing"
+          ]
+        },
+        {
+          "id": "component-limits",
+          "status": "needs-verification",
+          "text": "提交嘅每頁 50 元件、80／20／35 字、20／200／100 選項、3 張 base64 圖及 100 KB 圖片限制：須按元件與 Flow JSON 版本逐項核對。",
+          "sources": [
+            "meta-components"
+          ]
+        },
+        {
+          "id": "upload-logic",
+          "status": "needs-verification",
+          "text": "提交嘅上傳 10 個／合共 100 MB、If／Switch 3 層：未完成官方版本核對，唔做通用 hardcoded validator。",
+          "sources": [
+            "meta-components"
+          ]
+        },
+        {
+          "id": "rollout-devices",
+          "status": "needs-verification",
+          "text": "提交嘅 2023-10／2025-05／2025-11 推出日期、Android 6、2025-12 Web 支援、全球覆蓋：未完成官方核對；日期唔等於某帳戶已可用。",
+          "sources": [
+            "meta-changelog"
+          ]
+        },
+        {
+          "id": "eligibility",
+          "status": "needs-verification",
+          "text": "Flows verification／quality 資格、IAB interactive 或內文 link 開放時程、Desktop／Web 支援：需確認當前帳戶、訊息種類與客戶端。",
+          "sources": [
+            "meta-changelog",
+            "sprinklr-iab"
+          ]
+        },
+        {
+          "id": "data-api",
+          "status": "needs-verification",
+          "text": "Data API 4.0 簽名、敏感欄位、endpoint payload、Metrics API：本次未核實。唔以 JSON 定義大小代替 endpoint 限制。",
+          "sources": [
+            "meta-components",
+            "meta-changelog"
+          ]
+        },
+        {
+          "id": "browser-capabilities",
+          "status": "needs-verification",
+          "text": "IAB 相機／AR、檔案上傳、cookies、deep links、User-Agent 識別與 Meta Pixel：按 OS、client、permission 及 consent 實測；唔寫成無限制或保證。",
+          "sources": [
+            "sprinklr-iab"
+          ]
+        }
+      ],
+      "requiresReverification": true,
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [
+        "whatsapp-native-forms",
+        "embedded-web",
+        "template-cta",
+        "submission-events",
+        "platform-policy-review"
+      ],
+      "sources": [
+        "handbook/src/industry-whatsapp.mjs",
+        "handbook/src/primary-navigation.mjs"
+      ],
+      "evidence": [
+        {
+          "id": "meta-flows",
+          "title": "Meta · WhatsApp Flows 產品定位",
+          "url": "https://whatsappbusiness.com/products/whatsapp-flows/",
+          "kind": "official-meta",
+          "access": "read"
+        },
+        {
+          "id": "meta-pricing",
+          "title": "Meta · 公開 pricing 頁（與提交資料有衝突）",
+          "url": "https://whatsappbusiness.com/products/platform-pricing/",
+          "kind": "official-meta",
+          "access": "read"
+        },
+        {
+          "id": "aws-limits",
+          "title": "AWS · Flows limitations（AWS 整合範圍）",
+          "url": "https://docs.aws.amazon.com/social-messaging/latest/userguide/managing-flows-limitations.html",
+          "kind": "provider-documentation",
+          "access": "read"
+        },
+        {
+          "id": "aws-assets",
+          "title": "AWS · UpdateWhatsAppFlowAssets / 重新發布",
+          "url": "https://docs.aws.amazon.com/social-messaging/latest/APIReference/API_UpdateWhatsAppFlowAssets.html",
+          "kind": "provider-documentation",
+          "access": "read"
+        },
+        {
+          "id": "twilio-flows",
+          "title": "Twilio · Flows、提交 webhook 與資料限制",
+          "url": "https://www.twilio.com/docs/content/whatsapp-flows",
+          "kind": "provider-documentation",
+          "access": "read"
+        },
+        {
+          "id": "sprinklr-iab",
+          "title": "Sprinklr · IAB 觸發與資格（未獲 Meta 原文核實）",
+          "url": "https://www.sprinklr.com/help/articles/whatsapp-webview-support/whatsapp-business-webview-support-inapp-browser-iab/691304747e4ef1475ff48386",
+          "kind": "provider-documentation",
+          "access": "read"
+        },
+        {
+          "id": "meta-components",
+          "title": "Meta · Flow components（本次存取受限，待核對）",
+          "url": "https://developers.facebook.com/docs/whatsapp/flows/reference/components",
+          "kind": "official-meta",
+          "access": "not-verified-this-review"
+        },
+        {
+          "id": "meta-changelog",
+          "title": "Meta · Flow changelog（本次未核實）",
+          "url": "https://developers.facebook.com/docs/whatsapp/flows/changelogs",
+          "kind": "official-meta",
+          "access": "not-verified-this-review"
+        },
+        {
+          "id": "meta-service-pricing",
+          "title": "Meta · Non-template pricing（本次存取受限）",
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/non-template-messages/",
+          "kind": "official-meta",
+          "access": "not-verified-this-review"
+        }
+      ],
+      "runtimePatterns": [],
+      "htmlAnchor": "#industry-whatsapp-flows-iab",
+      "markdown": "pages/industry-whatsapp-flows-iab.md"
+    },
+    {
+      "id": "quote-archive",
+      "title": "原話與設計方向記錄",
+      "group": "檔案庫",
+      "summary": "保留設計意圖，亦分清楚用戶原話、編輯摘要同尚待來源核實嘅草稿句子。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#quote-archive",
+      "markdown": "pages/quote-archive.md"
+    },
+    {
+      "id": "version-history",
+      "title": "版本記錄 · 可核對嘅演進",
+      "group": "檔案庫",
+      "summary": "版本用 Git 記錄核對，固定香港時間保存每次改動；唔把未核實年份寫成已發布歷史。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#version-history",
+      "markdown": "pages/version-history.md"
+    },
+    {
+      "id": "rules-index",
+      "title": "規則代碼索引",
+      "group": "檔案庫",
+      "summary": "用穩定代碼定位規則來源，方便 review 同 AI Agent 引用；完整內容仍以對應章節為準。",
+      "ruleStatus": "draft-specification",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "verify-app-separately",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#rules-index",
+      "markdown": "pages/rules-index.md"
+    },
+    {
+      "id": "candidates",
+      "title": "候選原則 · 待驗證",
+      "group": "檔案庫",
+      "summary": "保存值得探索嘅方向，但唔將假設、任意門檻或未實作能力寫成正式產品承諾。",
+      "ruleStatus": "proposal",
+      "specimenStatus": "fictional-example",
+      "adoptionStatus": "not-deployed-by-this-release",
+      "scenarios": [],
+      "sources": [
+        "handbook/src/draft3-adoption.mjs",
+        "spec/motion.md",
+        "spec/feature-workspaces.md"
+      ],
+      "evidence": [],
+      "runtimePatterns": [],
+      "htmlAnchor": "#candidates",
+      "markdown": "pages/candidates.md"
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "case-broadcasting",
+      "moduleChapter": "channels",
+      "job": "向合適客戶傳達訊息，掌握發送動態，再用結果改善下一次。",
+      "stages": [
+        "策劃與設定",
+        "執行與掌握動態",
+        "結果、補救與學習"
+      ],
+      "baselineStatus": "source-based-reconstruction",
+      "afterStatus": "design-system-proposal",
+      "evidence": [
+        {
+          "title": "App source · src/Broadcasts/AddEditBroadcast.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Broadcasts/AddEditBroadcast.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/Broadcasts/List.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Broadcasts/List.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/Broadcasts/OverviewDashboard/index.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Broadcasts/OverviewDashboard/index.tsx",
+          "kind": "observed-source"
+        }
+      ]
+    },
+    {
+      "id": "case-contacts",
+      "moduleChapter": "contacts",
+      "job": "搵到正確聯絡人、理解資料，再喺清楚範圍內完成更新。",
+      "stages": [
+        "尋找及縮窄",
+        "檢視與判斷",
+        "編輯／批次與返回"
+      ],
+      "baselineStatus": "source-based-reconstruction",
+      "afterStatus": "design-system-proposal",
+      "evidence": [
+        {
+          "title": "App source · src/Audience/index.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Audience/index.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/Audience/contactColumns.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Audience/contactColumns.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/Audience/AudienceBulkActionDropdown.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/Audience/AudienceBulkActionDropdown.tsx",
+          "kind": "observed-source"
+        }
+      ]
+    },
+    {
+      "id": "case-inbox",
+      "moduleChapter": "inbox",
+      "job": "找出需回覆嘅對話，在足夠上下文中回覆、分配與跟進。",
+      "stages": [
+        "識別待處理",
+        "閱讀／回覆／分配",
+        "確認狀態與跟進"
+      ],
+      "baselineStatus": "source-based-reconstruction",
+      "afterStatus": "design-system-proposal",
+      "evidence": [
+        {
+          "title": "App source · src/InboxV2/FilterPanel/ConversationFilters.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/InboxV2/FilterPanel/ConversationFilters.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/InboxV2/ChatList/ChatRow.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/InboxV2/ChatList/ChatRow.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/InboxV2/MessagePane/MessageBubble.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/InboxV2/MessagePane/MessageBubble.tsx",
+          "kind": "observed-source"
+        }
+      ]
+    },
+    {
+      "id": "case-automation",
+      "moduleChapter": "automation",
+      "job": "定義可靠觸發與動作，安全測試，發布後仍可監察及修正。",
+      "stages": [
+        "理解與建立",
+        "編輯／測試／發布",
+        "監察及修正"
+      ],
+      "baselineStatus": "source-based-reconstruction",
+      "afterStatus": "design-system-proposal",
+      "evidence": [
+        {
+          "title": "App source · src/FlowBuilder/GlobalFlowBuilder.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/FlowBuilder/GlobalFlowBuilder.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/FlowBuilder/FlowSave.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/FlowBuilder/FlowSave.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/FlowBuilder/FlowOnboardingWizard.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/FlowBuilder/FlowOnboardingWizard.tsx",
+          "kind": "observed-source"
+        }
+      ]
+    },
+    {
+      "id": "case-integration",
+      "moduleChapter": "integrations",
+      "job": "找到合適整合，清楚授權連結，之後能管理或恢復連線。",
+      "stages": [
+        "探索適合嘅 app",
+        "授權與連結",
+        "管理及恢復"
+      ],
+      "baselineStatus": "source-based-reconstruction",
+      "afterStatus": "design-system-proposal",
+      "evidence": [
+        {
+          "title": "App source · src/AppStore/AppStoreBrowser.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/AppStore/AppStoreBrowser.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/AppStore/AppStoreFilters.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/AppStore/AppStoreFilters.tsx",
+          "kind": "observed-source"
+        },
+        {
+          "title": "App source · src/AppStore/AppStoreInstaller.tsx @ 1440000bd58275bbd347aa2141427b35ca1a0f19",
+          "url": "https://github.com/chatdaddy/frontend-dashboard/blob/1440000bd58275bbd347aa2141427b35ca1a0f19/src/AppStore/AppStoreInstaller.tsx",
+          "kind": "observed-source"
+        }
+      ]
+    }
+  ]
+}

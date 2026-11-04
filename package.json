@@ -1,6 +1,6 @@
 {
   "name": "design-system",
-  "version": "0.1.0",
+  "version": "1.4.0-draft.9",
   "private": true,
   "description": "A personal, brand-generic design system. See README.",
   "license": "MIT",
@@ -9,8 +9,12 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
+    "dev": "pnpm handbook:build && turbo run dev",
+    "build": "pnpm handbook:build && turbo run build",
+    "handbook:build": "node scripts/sync-handbook.mjs",
+    "handbook:test": "node --test scripts/handbook-migration.test.mjs && node library/scripts/validate-handbook-dom.mjs",
+    "library:install": "npm ci --prefix library --no-audit --no-fund",
+    "library:lab": "npm run build-storybook --prefix library && node scripts/sync-lab.mjs",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
     "clean": "turbo run clean && rm -rf node_modules"

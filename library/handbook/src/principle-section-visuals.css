@@ -1,0 +1,181 @@
+/* Optional section-level product sketches. All rules stay inside .psv. */
+.psv {
+  --psv-ink: #182942;
+  --psv-muted: #647790;
+  --psv-line: #e0e8f2;
+  --psv-blue: #165ce4;
+  container-type: inline-size;
+  min-width: 0;
+  padding: clamp(10px, 2vw, 20px);
+  border: 1px solid #dce5f2;
+  border-radius: 12px;
+  background: radial-gradient(circle at 100% 0, #e0ebff, transparent 42%), #f0f4fa;
+  color: var(--psv-ink);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.psv *, .psv *::before, .psv *::after { box-sizing: border-box; }
+.psv .psv-frame { min-width: 0; overflow: hidden; border: 1px solid #cbd9e9; border-radius: 11px; background: white; box-shadow: 0 11px 28px #294c7918; }
+.psv .psv-chrome { display: flex; align-items: center; gap: 8px; min-height: 30px; padding: 0 12px; background: #20304b; color: #dce7f6; font-size: 10px; font-weight: 650; }
+.psv .psv-chrome > span:nth-child(2) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.psv .psv-chrome small { margin-left: auto; color: #a8c1e4; font-size: 9px; letter-spacing: .08em; white-space: nowrap; }
+.psv .psv-mark { display: inline-grid; place-items: center; width: 17px; height: 17px; flex: none; border-radius: 5px; background: #4b85f1; color: white; font-size: 10px; font-weight: 800; }
+.psv .psv-body { min-width: 0; padding: 18px; }
+.psv h3, .psv p { margin: 0; }
+.psv h3 { font-size: clamp(16px, 2.4vw, 19px); line-height: 1.3; letter-spacing: -.025em; font-weight: 650; }
+.psv p { color: #556c88; font-size: 11px; line-height: 1.55; }
+.psv small { font-size: 10px; line-height: 1.4; }
+.psv strong { font-weight: 650; }
+.psv .psv-eyebrow { display: block; color: #5373a1; font-size: 9px; line-height: 1.35; font-weight: 750; letter-spacing: .085em; }
+.psv .psv-head { display: grid; gap: 4px; margin-bottom: 14px; }
+.psv .psv-two, .psv .psv-three { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.psv .psv-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.psv .psv-four { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px; }
+.psv .psv-state-matrix { display: grid; grid-template-columns: repeat(auto-fit, minmax(112px, 1fr)); gap: 7px; }
+.psv .psv-save-flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.psv .psv-two.psv-asymmetric { grid-template-columns: minmax(150px, .7fr) minmax(0, 1.3fr); }
+.psv .psv-card { display: grid; align-content: start; gap: 8px; min-width: 0; padding: 13px; border: 1px solid var(--psv-line); border-radius: 8px; background: #fff; }
+.psv .psv-card.psv-emphasis { border-color: #aac7f6; background: #f7faff; box-shadow: inset 0 3px 0 #4d89ed; }
+.psv .psv-setting { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-width: 0; padding: 7px 0; border-bottom: 1px solid #ecf0f6; font-size: 11px; }
+.psv .psv-setting:last-child { border-bottom: 0; }
+.psv .psv-setting > span:first-child { color: #657994; }
+.psv .psv-setting strong { text-align: right; overflow-wrap: anywhere; }
+.psv .psv-setting.psv-current { color: #1559c5; }
+.psv .psv-setting.psv-current strong { margin-right: auto; }
+.psv .psv-chip { display: inline-flex; align-items: center; min-height: 22px; padding: 3px 7px; border: 1px solid #dce7f8; border-radius: 5px; background: #eef4ff; color: #3463a8; font-size: 10px; font-weight: 650; white-space: nowrap; }
+.psv .psv-chip.is-warning { border-color: #f1ddae; background: #fff5df; color: #95601b; }
+.psv .psv-chip.is-good { border-color: #bde5cd; background: #ecf9f0; color: #247952; }
+.psv .psv-chip-row { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.psv .psv-action { display: inline-flex; align-items: center; justify-content: center; min-height: 29px; padding: 6px 10px; border: 1px solid #165ce4; border-radius: 6px; background: #165ce4; color: white; font-family: inherit; font-size: 10px; font-weight: 700; line-height: 1.35; text-decoration: none; white-space: nowrap; }
+.psv button.psv-action, .psv .psv-tool-button { cursor: pointer; }
+.psv .psv-action.is-quiet { border-color: #cad8eb; background: white; color: #30547f; }
+.psv .psv-action.is-disabled { border-color: #dce3ec; background: #eef1f5; color: #71829a; }
+.psv .psv-action.is-focus-target { box-shadow: 0 0 0 3px #c8dbff; }
+.psv :is(.psv-action, .psv-tool-button, .psv-text-link):focus-visible { outline: 2px solid #145be7; outline-offset: 3px; }
+.psv .psv-state-note { display: inline-flex; align-items: center; min-height: 24px; padding: 3px 7px; border-left: 3px solid #89a9d8; background: #f2f6fd; color: #30547f; font-size: 10px; font-weight: 650; }
+.psv .psv-text-link { color: #1759c7; font-size: 10px; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.psv .psv-screen-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-top: 12px; padding-top: 11px; border-top: 1px solid var(--psv-line); color: #6f8098; font-size: 10px; }
+.psv .psv-screen-footer > strong { color: #1652b6; font-size: 12px; }
+.psv .psv-warn { color: #986019; }
+.psv .psv-faux-field { display: grid; gap: 5px; min-width: 0; padding: 8px 10px; border: 1px solid #cdd9e8; border-radius: 6px; background: #fff; }
+.psv .psv-faux-field small { color: #71849c; }
+.psv .psv-faux-field strong { display: flex; justify-content: space-between; gap: 8px; color: #2f4a6b; font-size: 11px; }
+.psv .psv-faux-field i { color: #7d91ac; font-style: normal; }
+.psv .psv-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.psv .psv-priority-list { display: grid; gap: 6px; }
+.psv .psv-priority-row { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; align-items: center; gap: 9px; min-width: 0; padding: 8px 10px; border: 1px solid #dfe7f2; border-radius: 7px; background: #fafcff; font-size: 10px; }
+.psv .psv-priority-row.is-winner { border-color: #8eafea; background: #edf5ff; }
+.psv .psv-priority-row > b { color: #2860b5; font-variant-numeric: tabular-nums; }
+.psv .psv-priority-row > span { display: grid; gap: 1px; min-width: 0; font-weight: 650; }
+.psv .psv-priority-row small { color: #6a7d97; font-weight: 450; }
+.psv .psv-priority-row strong { text-align: right; overflow-wrap: anywhere; }
+.psv .psv-state-card { display: grid; align-content: start; gap: 5px; min-width: 0; min-height: 98px; padding: 12px; border: 1px solid #dce5f0; border-radius: 8px; background: #fbfcff; }
+.psv .psv-state-card.is-active { border-color: #9fc1f4; background: #f0f6ff; }
+.psv .psv-state-card.is-done { border-color: #b8e3ca; background: #f0fbf4; }
+.psv .psv-state-card small { color: #73869f; }
+.psv .psv-state-card strong { overflow-wrap: anywhere; font-size: 13px; }
+.psv .psv-state-card span { color: #647990; font-size: 10px; }
+.psv .psv-meter { height: 7px; margin: 4px 0 13px; overflow: hidden; border-radius: 99px; background: #e5ecf7; }
+.psv .psv-meter span { display: block; height: 100%; border-radius: inherit; background: #226ae4; }
+.psv .psv-dot { display: inline-block; width: 14px; height: 14px; flex: none; border: 2px solid #adc0d9; border-radius: 50%; }
+.psv .psv-dot.is-done { border-color: #249d69; background: #249d69; box-shadow: inset 0 0 0 3px white; }
+.psv .psv-next-card { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 13px; }
+.psv .psv-next-card .psv-eyebrow { width: 100%; }
+.psv .psv-report-scale { color: #60758f; font-size: 10px; }
+.psv .psv-bars { display: flex; align-items: stretch; gap: 6px; height: 115px; padding: 2px 3px 0; }
+.psv .psv-bar-col { position: relative; display: flex; flex: 1; flex-direction: column; align-items: center; justify-content: end; min-width: 0; height: 100%; padding: 15px 0 16px; color: #496484; font-size: 9px; font-variant-numeric: tabular-nums; }
+.psv .psv-bar-col b { position: absolute; top: 0; font-size: 9px; }
+.psv .psv-bar-col i { display: block; width: min(100%, 28px); min-height: 5px; flex: none; border-radius: 3px 3px 0 0; background: #80aaf0; }
+.psv .psv-bar-col small { position: absolute; bottom: 0; left: 0; width: 100%; padding-top: 3px; border-top: 1px solid #cdd9e8; color: #60758f; text-align: center; }
+.psv .psv-spark { display: flex; align-items: end; gap: 7px; height: 65px; padding: 8px 3px 2px; border-bottom: 1px solid #cdd9e8; }
+.psv .psv-spark i { flex: 1; max-width: 28px; min-height: 5px; border-radius: 3px 3px 0 0; background: #b6c4da; }
+.psv .psv-spark.is-blue i { background: #4c89e9; }
+.psv .psv-journey { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.psv .psv-journey > * { padding: 5px 7px; border: 1px solid #dce6f3; border-radius: 5px; background: #f8fbff; color: #547193; font-size: 10px; }
+.psv .psv-journey > strong { border-color: #a9c5ee; background: #edf5ff; color: #1557b9; }
+.psv .psv-mapping-row { margin-bottom: 9px; }
+.psv .psv-flow-mini { align-content: center; justify-items: center; gap: 13px; background-color: #f8faff; background-image: radial-gradient(#dfe7f3 1px, transparent 1px); background-size: 12px 12px; }
+.psv .psv-node { position: relative; width: min(100%, 225px); padding: 7px 10px; border: 1px solid #cbdcf1; border-radius: 7px; background: white; color: #2c4e75; box-shadow: 0 3px 6px #2d4b7112; font-size: 10px; font-weight: 650; text-align: center; }
+.psv .psv-node:not(:last-child)::after { content: ""; position: absolute; top: 100%; left: 50%; height: 14px; border-left: 2px solid #a8bfdc; }
+.psv .psv-node.is-dashed { border-style: dashed; color: #6c7e94; background: #f8faff; }
+.psv .psv-bubble { padding: 10px; border-radius: 9px 9px 2px 9px; background: #e9f1ff; color: #315480; font-size: 11px; }
+.psv .psv-table-card { display: block; overflow-x: auto; padding: 0; }
+.psv .psv-table-card table { width: 100%; border-collapse: collapse; text-align: left; }
+.psv .psv-table-card th, .psv .psv-table-card td { padding: 8px 10px; border-bottom: 1px solid #e9eef5; font-size: 10px; white-space: nowrap; }
+.psv .psv-table-card th { color: #667c98; font-weight: 650; }
+.psv .psv-table-card tbody tr:last-child > * { border-bottom: 0; }
+.psv .psv-big { display: block; font-size: clamp(19px, 3vw, 24px); letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.psv .psv-avatar { display: grid; place-items: center; width: 28px; height: 28px; flex: none; border-radius: 50%; background: #e1ecff; color: #2058b0; font-size: 9px; font-weight: 750; }
+.psv .psv-avatar.is-mint { background: #e0f5ed; color: #267c61; }
+.psv .psv-contact-row { display: flex; align-items: center; gap: 8px; min-width: 0; min-height: 42px; padding: 5px 0; border-bottom: 1px solid #edf1f6; }
+.psv .psv-contact-row:last-child { border-bottom: 0; }
+.psv .psv-contact-row.is-selected { background: #f4f8ff; }
+.psv .psv-contact-row > span:nth-child(2) { display: grid; gap: 1px; flex: 1; min-width: 0; }
+.psv .psv-contact-row strong, .psv .psv-contact-row small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.psv .psv-contact-row strong { font-size: 11px; overflow-wrap: anywhere; white-space: normal; }
+.psv .psv-contact-row small { color: #78899f; }
+.psv .psv-row-right { display: grid; justify-items: end; gap: 2px; }
+.psv .psv-row-right b { padding: 1px 4px; border-radius: 3px; background: #e7f6ed; color: #227a55; font-size: 8px; }
+.psv .psv-dialog { max-width: 395px; margin: auto; padding: 18px; border: 1px solid #d7e2ef; border-radius: 10px; background: white; box-shadow: 0 13px 30px #213a6124; }
+.psv .psv-dialog h3 { margin-top: 8px; }
+.psv .psv-dialog p { margin-top: 7px; }
+.psv .psv-dialog-actions { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 15px; }
+.psv .psv-focus-hint { margin-top: 11px; padding: 7px 9px; border-left: 3px solid #3775dd; background: #f1f6ff; color: #315b94; font-size: 10px; }
+.psv .psv-icon-warning { display: grid; place-items: center; width: 27px; height: 27px; flex: none; border-radius: 7px; background: #fff0d6; color: #a66616; font-size: 15px; font-weight: 800; }
+.psv .psv-alert-card { grid-template-columns: 27px 1fr; align-items: start; background: #fffaf2; border-color: #f0dcba; }
+.psv .psv-alert-card p { margin-top: 3px; }
+.psv .psv-toolbar { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
+.psv .psv-faux-search { flex: 1; min-width: 0; padding: 7px 9px; border: 1px solid #d5dfec; border-radius: 6px; color: #8091a6; font-size: 10px; }
+.psv .psv-toolbar-row { display: flex; align-items: center; }
+.psv .psv-toolbar-row > strong { flex: 1; min-width: 0; }
+.psv .psv-row-tools { display: flex; gap: 5px; opacity: 0; transition: opacity 180ms ease; }
+.psv .psv-toolbar-row:hover .psv-row-tools, .psv .psv-toolbar-row:focus-within .psv-row-tools { opacity: 1; }
+.psv .psv-tool-button { font-family: inherit; }
+.psv .psv-extra-tags summary:focus-visible { outline: 2px solid #2269ec; outline-offset: 2px; }
+.psv .psv-extra-tags { display: inline-block; }
+.psv .psv-extra-tags summary { padding: 3px 6px; border: 1px solid #cbdcf0; border-radius: 5px; color: #3264a4; cursor: pointer; font-size: 10px; }
+.psv .psv-extra-tags > div { display: flex; gap: 5px; margin-top: 7px; }
+.psv .psv-login { display: grid; justify-items: stretch; gap: 9px; width: min(100%, 285px); margin: auto; }
+.psv .psv-login > .psv-mark { width: 28px; height: 28px; font-size: 16px; }
+.psv .psv-login .psv-action { width: 100%; }
+.psv .psv-login > .psv-text-link { text-align: center; }
+.psv .psv-mobile { width: min(100%, 285px); margin: auto; padding: 12px; border: 1px solid #d7e2ef; border-radius: 13px; background: white; box-shadow: 0 6px 18px #233d6412; }
+.psv .psv-mobile-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 9px; }
+.psv .psv-mobile .psv-head { margin-bottom: 0; }
+.psv .psv-mobile .psv-screen-footer { justify-content: stretch; }
+.psv .psv-mobile .psv-action { flex: none; min-height: 44px; padding: 7px; font-size: 10px; }
+.psv .psv-feature { display: grid; justify-items: start; gap: 10px; max-width: 420px; margin: auto; }
+.psv .psv-feature .psv-card { width: 100%; }
+.psv .psv-feature-order { display: grid; gap: 6px; width: 100%; }
+.psv .psv-feature-order > div { display: grid; gap: 3px; padding: 8px 10px; border-left: 3px solid #8fb5ee; background: #f6f9ff; }
+.psv .psv-feature-order small { color: #5575a4; font-weight: 750; }
+.psv .psv-feature-order strong { font-size: 11px; }
+.psv .psv-review-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.psv .psv-review-grid .psv-card { gap: 4px; }
+.psv .psv-review-grid .psv-card small { color: #607ca5; font-weight: 750; }
+.psv .psv-review-grid .psv-card span { color: #546c89; font-size: 10px; }
+.psv .psv-review-grid .psv-card.is-warning { border-color: #eecf9a; background: #fffaf0; }
+.psv .psv-sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+@container (max-width: 490px) {
+  .psv .psv-body { padding: 13px; }
+  .psv .psv-two, .psv .psv-three, .psv .psv-two.psv-asymmetric, .psv .psv-form-grid { grid-template-columns: minmax(0, 1fr); }
+  .psv .psv-four, .psv .psv-save-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .psv .psv-three { gap: 6px; }
+  .psv .psv-state-card { min-height: auto; }
+  .psv .psv-review-grid { grid-template-columns: minmax(0, 1fr); }
+  .psv .psv-chrome small { display: none; }
+}
+@container (max-width: 285px) {
+  .psv .psv-four, .psv .psv-save-flow { grid-template-columns: minmax(0, 1fr); }
+  .psv .psv-priority-row { grid-template-columns: 22px minmax(0, 1fr); }
+  .psv .psv-priority-row strong { grid-column: 2; text-align: left; }
+  .psv .psv-mobile-head { align-items: stretch; flex-direction: column; }
+}
+@media (hover: none), (pointer: coarse) {
+  .psv .psv-row-tools { opacity: 1; }
+  .psv :is(.psv-action, .psv-tool-button, .psv-extra-tags summary) { min-height: 44px; }
+  .psv .psv-extra-tags summary { display: inline-flex; align-items: center; }
+}
+@media (prefers-reduced-motion: reduce) { .psv *, .psv *::before, .psv *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+html[data-motion="reduced"] .psv *, html[data-motion="reduced"] .psv *::before, html[data-motion="reduced"] .psv *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }

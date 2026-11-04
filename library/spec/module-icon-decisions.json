@@ -1,0 +1,32 @@
+{
+  "specVersion": "1.1.0-draft.7",
+  "status": "user-selected-pending-design-and-engineering-review",
+  "selectionEvidence": "Product owner pasted the module-icon studio summary in the current design-system task on 2026-09-25",
+  "scope": "Authored Design System module assets and handbook; App navigation is a separate rollout",
+  "choices": [
+    {
+      "id": "MI-01",
+      "module": "integration",
+      "option": "B",
+      "name": "Connected apps",
+      "asset": "assets/icons/modules/integration.svg",
+      "status": "user-selected"
+    },
+    {
+      "id": "MI-02",
+      "module": "ai",
+      "option": "A",
+      "name": "Brain",
+      "asset": "assets/icons/modules/ai.svg",
+      "status": "user-selected"
+    },
+    {
+      "id": "MI-03",
+      "module": "crm",
+      "option": "B",
+      "name": "Opportunity card",
+      "asset": "assets/icons/modules/crm.svg",
+      "status": "user-selected"
+    }
+  ]
+}

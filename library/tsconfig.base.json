@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "paths": {
+      "@chatdaddy/tokens": ["./packages/tokens/src/index.ts"],
+      "@chatdaddy/icons": ["./packages/icons/src/index.ts"],
+      "@chatdaddy/components": ["./packages/components/src/index.ts"],
+      "@chatdaddy/stores": ["./packages/stores/src/index.ts"],
+      "@chatdaddy/theme": ["./packages/theme/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

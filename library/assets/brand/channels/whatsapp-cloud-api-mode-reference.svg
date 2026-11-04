@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <title>Cloud API mode illustration — user-reference derivative, not an official Meta logo</title>
+  <defs>
+    <linearGradient id="app-green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#54fa74"/>
+      <stop offset="1" stop-color="#20b51c"/>
+    </linearGradient>
+    <mask id="gear-hole"><rect width="300" height="300" fill="#fff"/><circle cx="153.5" cy="145" r="27.5" fill="#000"/></mask>
+  </defs>
+  <rect width="300" height="300" rx="65" fill="url(#app-green)"/>
+  <path d="M67 200 A99 99 0 1 1 109 234 L57 247 Z" fill="none" stroke="#fafff4" stroke-width="18" stroke-linejoin="round"/>
+  <g fill="#fafff4" mask="url(#gear-hole)">
+    <circle cx="153.5" cy="145" r="48"/>
+    <rect x="141" y="83" width="25" height="28" rx="7" transform="rotate(0 153.5 145)"/>
+    <rect x="141" y="83" width="25" height="28" rx="7" transform="rotate(45 153.5 145)"/>
+    <rect x="141" y="83" width="25" height="28" rx="7" transform="rotate(90 153.5 145)"/>
+    <rect x="141" y="83" width="25" height="28" rx="7" transform="rotate(135 153.5 145)"/>
+    <rect x="141" y="83" width="25" height="28" rx="7" transform="rotate(180 153.5 145)"/>
+    <rect x="141" y="83" width="25" height="28" rx="7" transform="rotate(225 153.5 145)"/>
+    <rect x="141" y="83" width="25" height="28" rx="7" transform="rotate(270 153.5 145)"/>
+    <rect x="141" y="83" width="25" height="28" rx="7" transform="rotate(315 153.5 145)"/>
+  </g>
+</svg>
